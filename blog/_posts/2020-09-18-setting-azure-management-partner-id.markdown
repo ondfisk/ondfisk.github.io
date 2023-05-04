@@ -57,8 +57,6 @@ $subscriptions | ForEach-Object {
 }
 ```
 
-Download: [Set-PartnerId.ps1](/assets/Set-PartnerId)
-
 You can call the script like so:
 
 ```powershell

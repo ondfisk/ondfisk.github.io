@@ -14,7 +14,7 @@ This is typically not a problem but for things like Desired State Configuration 
 
 To remedy this problem here's a set of scripts:
 
-### Get-DuplicateModule.ps1
+### Get Duplicate Modules
 
 ```powershell
 Get-InstalledModule | ForEach-Object {
@@ -30,12 +30,10 @@ Get-InstalledModule | ForEach-Object {
 }
 ```
 
-Download: [Get-DuplicateModule.ps1](/assets/Get-DuplicateModule.ps1)
-
 ![Get-DuplicateModule.ps1 sample output](/assets/get-duplicatemodule-sample-output.png "Get-DuplicateModule.ps1 sample output")
 *Get-DuplicateModule.ps1 sample output*
 
-### Uninstall-DuplicateModule.ps1
+### Uninstall Duplicate Modules
 
 ```powershell
 Get-InstalledModule | ForEach-Object {
@@ -52,8 +50,6 @@ Get-InstalledModule | ForEach-Object {
     }
 }
 ```
-
-Download: [Uninstall-DuplicateModule.ps1](/assets/Uninstall-DuplicateModule.ps1)
 
 ![Uninstall-DuplicateModule.ps1 sample output](/assets/uninstall-duplicatemodule-sample-output.png "Uninstall-DuplicateModule.ps1 sample output")
 *Uninstall-DuplicateModule.ps1 sample output*

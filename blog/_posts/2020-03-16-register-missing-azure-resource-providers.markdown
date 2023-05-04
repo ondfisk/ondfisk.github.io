@@ -6,13 +6,19 @@ categories: azure powershell
 permalink: /register-missing-azure-resource-providers/
 ---
 
+[Updated 2023-05-04 to include AZ CLI commands]
+
 When creating a new Azure subscriptions chances are it will not have all the resource providers you want registered (enabled).
 
 We often choose to register all the *Microsoft* resource providers (not *Classic*) by default.
 
-## Get-MissingProvider.ps1
+## Get Missing Providers
 
-This script lists the missing providers:
+This command lists the missing providers:
+
+```bash
+az provider list --query "[?starts_with(namespace, 'Microsoft.') && (!(contains(namespace, 'Classic'))) && registrationState=='NotRegistered']" --output table
+```
 
 ```powershell
 Get-AzResourceProvider -ListAvailable |
@@ -22,11 +28,13 @@ Get-AzResourceProvider -ListAvailable |
     Select-Object ProviderNamespace, RegistrationState, Locations
 ```
 
-Download: [Get-MissingProvider.ps1](/assets/Get-MissingProvider.ps1)
+## Register Missing Providers
 
-## Register-MissingProvider.ps1
+This command registers the missing providers:
 
-This script registers the missing providers:
+```bash
+az provider list --query "[?starts_with(namespace, 'Microsoft.') && (!(contains(namespace, 'Classic'))) && registrationState=='NotRegistered'].namespace" --output tsv | xargs -L1 az provider register --namespace
+```
 
 ```powershell
 Get-AzResourceProvider -ListAvailable |
@@ -35,7 +43,5 @@ Get-AzResourceProvider -ListAvailable |
     Where-Object RegistrationState -eq "NotRegistered" |
     Register-AzResourceProvider
 ```
-
-Download: [Register-MissingProvider.ps1](/assets/Register-MissingProvider.ps1)
 
 **Note**: You have to be *owner* of the subscription to do this.
