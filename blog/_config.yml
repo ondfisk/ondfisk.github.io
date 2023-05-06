@@ -21,11 +21,11 @@
 lang: en-US
 title: ondfisk - rants from the cloud
 email: rasmus@lystroem.dk
-description:
+description: ""
 baseurl: "" # the subpath of your site, e.g. /blog
 author: Rasmus Lystrøm
 disclaimer: The opinions expressed herein are my own personal opinions and do not represent my employer's view in any way.
-url: "https://www.ondfisk.dk"
+url: "https://ondfisk.dk/"
 twitter_username: ondfisk
 github_username:  ondfisk
 linkedin_username: rasmuslystroem
