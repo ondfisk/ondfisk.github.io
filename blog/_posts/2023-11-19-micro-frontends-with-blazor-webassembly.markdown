@@ -1,7 +1,7 @@
 ---
 layout: post
 title: Micro Frontends with Blazor WebAssembly
-date: 2023-11-19 12:00:00 +0100
+date: 2023-11-19 10:00:00 +0100
 categories: blazor micro-frontends micro-services webassembly
 permalink: micro-frontends-with-blazor-webassembly/
 ---
@@ -65,7 +65,7 @@ The *Root* contains technical details worth noting:
 
 ### Package handling
 
-A `nuget.config` has been added which allows pulling packages from GitHub Packages.
+Add `nuget.config` to allow pulling packages from GitHub Packages.
 
 ```xml
 <?xml version="1.0" encoding="utf-8"?>
@@ -84,7 +84,7 @@ A `nuget.config` has been added which allows pulling packages from GitHub Packag
 </configuration>
 ```
 
-Component 1 and Component 2 has been added:
+Add the Component 1 and Component 2 packages to *Root*:
 
 ```bash
 dotnet add package ComposableUI.Component1
@@ -115,7 +115,7 @@ public class DownstreamApiConfiguration
 }
 ```
 
-`Program.cs`:
+Modify `Program.cs`:
 
 ```csharp
 var downstreamApi = builder.Configuration.GetSection("DownstreamApi").Get<DownstreamApiConfiguration>() ?? throw new InvalidOperationException("DownstreamApi configuration is missing");
@@ -174,3 +174,6 @@ I believe this concept can solve a number of issues with having multiple teams c
 Feel free to grab what you need from [GitHub](https://github.com/ondfisk/ComposableUI.Root).
 
 Happy coding!
+
+![Composable Root running locally](/assets/composable-root.png "Composable Root running locally")
+*Composable Root running locally*
