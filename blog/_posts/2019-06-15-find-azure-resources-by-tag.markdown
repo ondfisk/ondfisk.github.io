@@ -1,6 +1,6 @@
 ---
 layout: post
-title: "Find Azure Resources By Tag"
+title: Find Azure Resources By Tag
 date: 2019-06-15 10:27:44 +0200
 categories: azure naming powershell
 permalink: find-azure-resources-by-tag/

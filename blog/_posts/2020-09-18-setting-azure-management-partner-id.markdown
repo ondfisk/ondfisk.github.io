@@ -1,6 +1,6 @@
 ---
 layout: post
-title: "Setting Azure Management Partner Id"
+title: Setting Azure Management Partner Id
 date: 2020-09-18 10:28:00 +0200
 categories: azure powershell
 permalink: /setting-azure-management-partner-id/

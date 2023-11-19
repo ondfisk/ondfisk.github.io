@@ -1,6 +1,6 @@
 ---
 layout: post
-title: "Why Having an Azure Naming Convention Will Only Slow You Down!"
+title: Why Having an Azure Naming Convention Will Only Slow You Down!
 date: 2019-06-14 10:39:24 +0200
 categories: azure naming
 permalink: why-having-an-azure-naming-convention-will-only-slow-you-down/
@@ -123,7 +123,7 @@ Have a look at the following table:
 | Subnet |  |  |  |
 | Database | db |  |  |
 | SQL Server |  | sql |  |
-| MySQL Serfver |  |  | mysql |
+| MySQL Server |  |  | mysql |
 | PostgreSQL Server |  |  | postgres |
 | Web App | ` | web |  |
 | PowerShell |  | ps1 |  |
