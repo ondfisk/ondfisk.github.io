@@ -1,6 +1,6 @@
 ---
 layout: post
-title: "Removing Duplicate PowerShell modules"
+title: Removing Duplicate PowerShell modules
 date: 2020-01-07 18:05:04 +0100
 categories: powershell
 permalink: /removing-duplicate-powershell-modules/
