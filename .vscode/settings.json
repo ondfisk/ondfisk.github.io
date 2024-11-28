@@ -3,7 +3,13 @@
     "cSpell.language": "en-GB",
     "cSpell.words": [
         "Blazor",
-        "frontend"
+        "davidanson",
+        "devcontainers",
+        "frontend",
+        "Lystrøm",
+        "ondfisk",
+        "rasmuslystroem",
+        "sass"
     ],
     "editor.trimAutoWhitespace": true,
     "files.autoSave": "afterDelay",
