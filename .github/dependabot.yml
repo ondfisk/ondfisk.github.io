@@ -7,7 +7,7 @@ updates:
       interval: weekly
 
   - package-ecosystem: bundler
-    directory: /
+    directory: /blog
     schedule:
       interval: weekly
 
