@@ -1,6 +1,6 @@
 ---
 layout: post
-title: 'Talk: Post "Accelerate": Why are we still failing at adopting DevOps in the Enterprise? - Stocholm 2024'
+title: 'Talk: Post "Accelerate": Why are we still failing at adopting DevOps in the Enterprise? - Stockholm 2024'
 date: 2024-11-07 10:00:00 +0100
 categories: talks devops
 permalink: post-accelerate-stockholm-2024/
