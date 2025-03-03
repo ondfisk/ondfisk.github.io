@@ -6,7 +6,7 @@ categories: talks ai
 permalink: how-not-to-lead-your-organizations-ai-transformation-melbourne-2024/
 ---
 
-Talk given at [*YOW!*](https://yowcon.com/) in Melbourne December 5, 2024.
+Talk given at [*YOW!*](https://yowcon.com/) in [Melbourne December 5, 2024](https://yowcon.com/melbourne-2024/speakers/3539/rasmus-lystroem).
 
 ## Abstract
 

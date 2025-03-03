@@ -6,7 +6,7 @@ categories: talks ai
 permalink: how-not-to-lead-your-organizations-ai-transformation-brisbane-2024/
 ---
 
-Talk given at [*YOW!*](https://yowcon.com/) in Brisbane December 9, 2024.
+Talk given at [*YOW!*](https://yowcon.com/) in [Brisbane December 9, 2024](https://yowcon.com/brisbane-2024/speakers/3538/rasmus-lystroem).
 
 ## Abstract
 

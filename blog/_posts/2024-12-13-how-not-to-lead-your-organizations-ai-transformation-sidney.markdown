@@ -6,7 +6,7 @@ categories: talks ai
 permalink: how-not-to-lead-your-organizations-ai-transformation-sidney-2024/
 ---
 
-Talk given at [*YOW!*](https://yowcon.com/) in Sidney December 13, 2024.
+Talk given at [*YOW!*](https://yowcon.com/) in [Sidney December 13, 2024](https://yowcon.com/sydney-2024/speakers/3537/rasmus-lystroem).
 
 ## Abstract
 

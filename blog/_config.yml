@@ -25,7 +25,7 @@ description: ""
 baseurl: "" # the subpath of your site, e.g. /blog
 author: Rasmus Lystrøm
 disclaimer: The opinions expressed herein are my own personal opinions and do not represent my employer's view in any way.
-url: "https://ondfisk.dk/"
+url: https://ondfisk.dk/
 github_username:  ondfisk
 linkedin_username: rasmuslystroem
 
