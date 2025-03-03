@@ -6,6 +6,7 @@
 			"settings": {},
 			"extensions": [
 				"davidanson.vscode-markdownlint",
+				"esbenp.prettier-vscode",
 				"github.copilot",
 				"github.copilot-chat",
 				"github.vscode-pull-request-github",
