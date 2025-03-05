@@ -10,7 +10,20 @@ Talk given at [*YOW!*](https://yowcon.com/) in [Brisbane December 9, 2024](https
 
 ## Abstract
 
-Reflecting on the recent advent of AI code assistants and the hype around generative AI in general.
+In this talk I present four leadership strategies for adopting generative AI:
+
+1. Leadership strategy no. 1: We'll wait it out aka "FUD"
+1. Leadership strategy no. 2: We'll build our own version of ChatGPT aka "Copycat"
+1. Leadership strategy no. 3: Hire a CAIO or maybe a CAITO aka "New Silo"
+1. Leadership strategy no. 4: Enable a paid service for everyone
+
+Having chosen one the any of the above inevitably your people are now leveraging generative AI to do work.
+
+I then continue discussing the benefits and drawbacks of using generative AI - particularly to boost developer productivity.
+
+The second part of the talk discusses how to change the organisation and skip the platform trap to support developing new solutions powered by AI.
+
+As a final note I present a perspective asking "Why is AI going the the wrong direction?"
 
 ## Slides
 
