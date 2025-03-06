@@ -20,7 +20,7 @@ layout: default
       <i class="fa-solid fa-user"></i> <span itemprop="author" itemscope itemtype="http://schema.org/Person"><span class="p-author h-card" itemprop="name">{{ page.author }}</span></span>&nbsp;
       {%- endif -%}
       {%- if page.updated -%}
-      <i class="fa-solid fa-calendar-plus"></i> {{ page.updated | date: date_format }} {{ page.updated_message }}
+      <i class="fa-solid fa-calendar-plus"></i> {{ page.updated | date: date_format }} {{ page.updated_message }}&nbsp;
       {%- endif -%}
       {%- if page.categories -%}
       <i class="fa-solid fa-tag"></i> {{ page.categories }}
