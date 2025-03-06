@@ -9,7 +9,7 @@ excerpt_separator: <!--more-->
 type: talk
 ---
 
-Talk given at [*YOW!*](https://yowcon.com/) in [Brisbane December 9, 2024](https://yowcon.com/brisbane-2024/speakers/3538/rasmus-lystroem).
+Talk given at [*YOW!*](https://yowcon.com/) in Brisbane December 9, 2024.
 
 In this talk I present four leadership strategies for adopting generative AI:
 

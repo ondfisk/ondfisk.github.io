@@ -248,15 +248,15 @@ While having a naming convention on a small team where everyone's on board might
 
 ### Documentation
 
-You need a way to document the naming convention which ensures people see it and follow it - and keep up to date with changes. This requires a lot of work.
+You need a way to document the naming convention which ensures people see it and follow it -- and keep up to date with changes. This requires a lot of work.
 
 ### Maintenance
 
-If you - as most organizations do - land on a naming conventions fix pre- and suffixes for resource types, you will have to update this whenever there are new resource types being made available - and given the pace at which Microsoft adds features to Azure, this will at minimum be several times a year.
+If you -- as most organizations do -- land on a naming convention with fixed pre- and suffixes for resource types, you will have to update this whenever there are new resource types being made available -- and given the pace at which Microsoft adds features to Azure, this will at minimum be several times a year.
 
 ### Talking, talking, talking
 
-The worst part about having a naming convention is that no matter how many times you say it, people will think it's up for debate. Chances are that only the few people who decided on the naming convention will appreciate it (and maybe not even them(!)) - the rest of the organization will most likely hate it and try to fight it or at least bicker about it whenever possible. This is a complete waste of everybody's time.
+The worst part about having a naming convention is that no matter how many times you say it, people will think it's up for debate. Chances are that only the few people who decided on the naming convention will appreciate it (and maybe not even them(!)) -- the rest of the organization will most likely hate it and try to fight it or at least bicker about it whenever possible. This is a complete waste of everybody's time.
 
 ### Verification/Enforcement
 
