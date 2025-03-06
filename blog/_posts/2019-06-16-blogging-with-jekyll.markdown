@@ -4,7 +4,7 @@ title: Blogging with Jekyll
 author: Rasmus Lystrøm
 date: 2019-06-15 10:27:44 +0200
 updated: 2025-03-03
-updated_message: updated with current setup - dev containers and GitHub Actions
+updated_message: updated with current setup
 categories: jekyll
 permalink: blogging-with-jekyll/
 excerpt_separator: <!--more-->
@@ -35,8 +35,6 @@ Working with Jekyll locally is made easy using a [development container](https:/
             "extensions": [
                 "davidanson.vscode-markdownlint",
                 "esbenp.prettier-vscode",
-                "github.copilot",
-                "github.copilot-chat",
                 "github.vscode-pull-request-github",
                 "redhat.vscode-yaml",
                 "shopify.ruby-extensions-pack",
@@ -84,15 +82,11 @@ jobs:
        contents: read
     steps:
       - name: Checkout
-        uses: actions/checkout@v4.2.2
+        uses: actions/checkout@v4
       - name: Deploy
         uses: Azure/static-web-apps-deploy@v1
         with:
-            azure_static_web_apps_api_token: ${{ secrets.AZURE_STATIC_WEB_APPS_API_TOKEN_ICY_POND_094D4CA03 }}
-            repo_token: ${{ secrets.GITHUB_TOKEN }}
-            action: upload
-            app_location: blog
-            output_location: _site
+            ...
         env:
             JEKYLL_ENV: production
 ```
