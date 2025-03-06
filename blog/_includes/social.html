@@ -1,0 +1,7 @@
+<ul class="social-media-list">
+  {%- if site.linkedin_username -%}<li><i class="fa-solid fa-brands fa-linkedin"></i> <a href="https://www.linkedin.com/in/{{ site.linkedin_username| cgi_escape | escape }}"><span class="username">{{ site.linkedin_username| escape }}</span></a></li>{%- endif -%}
+  {%- if site.github_username -%}<li><i class="fa-solid fa-brands fa-github"></i> <a href="https://github.com/{{ site.github_username| cgi_escape | escape }}"><span class="username">{{ site.github_username| escape }}</span></a></li>{%- endif -%}
+  {%- if site.sessionize_username -%}<li><i class="fa-solid fa-bullhorn"></i> <a href="https://www.sessionize.com/{{ site.sessionize_username| cgi_escape | escape }}"><span class="username">{{ site.speakerdeck_username| escape }}</span></a></li>{%- endif -%}
+  {%- if site.speakerdeck_username -%}<li><i class="fa-solid fa-brands fa-speaker-deck"></i> <a href="https://www.speakerdeck.com/{{ site.speakerdeck_username| cgi_escape | escape }}"><span class="username">{{ site.speakerdeck_username| escape }}</span></a></li>{%- endif -%}
+  {%- if site.rss -%}<li><i class="fa-solid fa-rss"></i> <a href="{{ 'feed.xml' | relative_url }}"><span>{{ site.rss | escape }}</span></a></li>{%- endif -%}
+</ul>

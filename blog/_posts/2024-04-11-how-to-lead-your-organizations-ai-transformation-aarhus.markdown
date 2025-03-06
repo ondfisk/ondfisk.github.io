@@ -1,16 +1,19 @@
 ---
 layout: post
-title: "Talk: How to Lead your Organization's AI transformation: Strategies, Skills, and Culture – or how to skip the platform trap and deliver business value with AI - Aarhus 2024"
+title: "How to Lead your Organization's AI transformation: Strategies, Skills, and Culture – or how to skip the platform trap and deliver business value with AI"
+author: Rasmus Lystrøm
 date: 2024-04-11 10:00:00 +0100
-categories: talks ai
+categories: ai
 permalink: how-to-lead-your-organizations-ai-transformation-aarhus-2024/
+excerpt_separator: <!--more-->
+type: talk
 ---
 
 Talk given at [*Code Evolution 2024: Leveraging AI Tools for Enhanced Software Development*](https://trifork.info/code-evolution-2024) in Aarhus April 11, 2024.
 
-## Abstract
+Reflecting on the recent advent of AI code assistants and the hype around generative AI.
 
-Reflecting on the recent advent of AI code assistants and the hype around generative AI in general.
+<!--more-->
 
 ## Slides
 

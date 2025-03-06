@@ -1,12 +1,17 @@
 ---
 layout: post
 title: Setting Azure Management Partner Id
+author: Rasmus Lystrøm
 date: 2020-09-18 10:28:00 +0200
-categories: azure powershell
+categories: azure
 permalink: /setting-azure-management-partner-id/
+excerpt_separator: <!--more-->
+type: blog
 ---
 
 If you are a Microsoft partner or if you are working with a Microsoft partner, a request to set the management partner id for each subscription sometimes comes up.
+
+<!--more-->
 
 This would typically require you to log in to the [Azure Portal](https://portal.azure.com/), find the subscription and the *Partner Information* settings:
 

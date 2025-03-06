@@ -1,18 +1,23 @@
 ---
 layout: post
 title: Custom 404
+author: Rasmus Lystrøm
 date: 2019-12-30 21:43:47 +0100
-categories: azure appservice staticwebapps
+updated: 2025-03-03
+updated_message: added setup for Azure Static Web Apps
+categories: azure
 permalink: /custom-404/
+excerpt_separator: <!--more-->
+type: blog
 ---
 
-Updated: Mar 3, 2025
+When you run Jekyll on Azure PaaS, you will notice that the `404.html` error page supplied by the Jekyll generator will not be hit.
+
+<!--more-->
 
 ## Azure Static Web Apps
 
-When you run Jekyll on Azure Static Web Apps, you will notice that the `404.html` error page supplied by the Jekyll generator will not be hit.
-
-To enable custom 404 on an Azure Static Web App, you can add a `staticwebapp.config.json` to your site:
+To enable custom 404 on Azure Static Web Apps, you can add a `staticwebapp.config.json` to your site:
 
 ```json
 {
@@ -30,9 +35,7 @@ Ref.: [Configure Azure Static Web Apps](https://learn.microsoft.com/en-us/azure/
 
 ## App Service (Windows)
 
-When you run Jekyll on Azure App Service (Windows), you will notice that the `404.html` error page supplied by the Jekyll generator will not be hit.
-
-To enable custom 404 on an Azure Web App, you can add a `Web.config` (yes the old ASP.NET one) to your site:
+To enable custom 404 on Azure Web Apps, you can add a `Web.config` (yes the old ASP.NET one) to your site:
 
 ```xml
 <?xml version="1.0" encoding="UTF-8"?>

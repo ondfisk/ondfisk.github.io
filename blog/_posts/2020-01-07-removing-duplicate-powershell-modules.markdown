@@ -1,14 +1,19 @@
 ---
 layout: post
 title: Removing Duplicate PowerShell modules
+author: Rasmus Lystrøm
 date: 2020-01-07 18:05:04 +0100
 categories: powershell
 permalink: /removing-duplicate-powershell-modules/
+excerpt_separator: <!--more-->
+type: blog
 ---
 
 Sometimes  installing or updating PowerShell modules will result in duplications where more than one version of the same module is installed.
 
 This is typically not a problem but for things like Desired State Configuration (DSC) this can be an issue as DSC requires that you either specify a specific version or only have one version installed.
+
+<!--more-->
 
 ## Solution
 

@@ -1,16 +1,21 @@
 ---
 layout: post
 title: Register Missing Azure Resource Providers
+author: Rasmus Lystrøm
 date: 2020-03-16 09:15:00 +0100
-categories: azure powershell
+updated: 2023-05-04
+update_message: to include AZ CLI commands
+categories: azure
 permalink: /register-missing-azure-resource-providers/
+excerpt_separator: <!--more-->
+type: blog
 ---
-
-[Updated 2023-05-04 to include AZ CLI commands]
 
 When creating a new Azure subscriptions chances are it will not have all the resource providers you want registered (enabled).
 
 We often choose to register all the *Microsoft* resource providers (not *Classic*) by default.
+
+<!--more-->
 
 ## Get Missing Providers
 

@@ -1,14 +1,15 @@
 ---
 layout: post
-title: "Talk: How [not] to Lead your Organization's AI transformation: Strategies, Skills, and Culture – or how to skip the platform trap and deliver business value with AI - Brisbane 2024"
+title: "How [not] to Lead your Organization's AI transformation: Strategies, Skills, and Culture – or how to skip the platform trap and deliver business value with AI"
+author: Rasmus Lystrøm
 date: 2024-12-09 10:00:00 +0100
-categories: talks ai
+categories: ai
 permalink: how-not-to-lead-your-organizations-ai-transformation-brisbane-2024/
+excerpt_separator: <!--more-->
+type: talk
 ---
 
 Talk given at [*YOW!*](https://yowcon.com/) in [Brisbane December 9, 2024](https://yowcon.com/brisbane-2024/speakers/3538/rasmus-lystroem).
-
-## Abstract
 
 In this talk I present four leadership strategies for adopting generative AI:
 
@@ -16,6 +17,8 @@ In this talk I present four leadership strategies for adopting generative AI:
 1. Leadership strategy no. 2: We'll build our own version of ChatGPT aka "Copycat"
 1. Leadership strategy no. 3: Hire a CAIO or maybe a CAITO aka "New Silo"
 1. Leadership strategy no. 4: Enable a paid service for everyone
+
+ <!--more-->
 
 Having chosen one the any of the above inevitably your people are now leveraging generative AI to do work.
 

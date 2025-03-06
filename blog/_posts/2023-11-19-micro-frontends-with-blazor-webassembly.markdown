@@ -1,14 +1,17 @@
 ---
 layout: post
 title: Micro Frontends with Blazor WebAssembly
+author: Rasmus Lystrøm
 date: 2023-11-19 10:00:00 +0100
-categories: blazor micro-frontends micro-services webassembly
+categories: blazor
 permalink: micro-frontends-with-blazor-webassembly/
+excerpt_separator: <!--more-->
+type: blog
 ---
 
-## Introduction
-
 Recently one of my customers shared their challenges with sharing a large [Blazor](https://dotnet.microsoft.com/en-us/apps/aspnet/web-apps/blazor) [WebAssembly](https://developer.mozilla.org/en-US/docs/WebAssembly) app between multiple teams.
+
+<!--more-->
 
 ## The problem
 

@@ -1,14 +1,21 @@
 ---
 layout: post
 title: Why Having an Azure Naming Convention Will Only Slow You Down!
+author: Rasmus Lystrøm
 date: 2019-06-14 10:39:24 +0200
-categories: azure naming
+categories: azure
 permalink: why-having-an-azure-naming-convention-will-only-slow-you-down/
+excerpt_separator: <!--more-->
+type: blog
 ---
 
-## Introduction
-
 In my experience most IT people believe that a naming convention is needed everywhere to ensure a consistent structure in resource names.
+
+<!--more-->
+
+> There are only two hard things in Computer Science: cache invalidation and naming things.
+>
+> -- [Phil Karlton](https://www.karlton.org/2017/12/naming-things-hard/)
 
 One of the root causes of this, I believe, is the NetBIOS protocol (1983) which limits a computer name to 15 characters and does not provide a built-in way to associate metadata to a name.
 

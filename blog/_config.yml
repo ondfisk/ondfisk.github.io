@@ -18,16 +18,19 @@
 # You can create any custom variable you would like, and they will be accessible
 # in the templates via {{ site.myvariable }}.
 
-lang: en-US
+lang: en-GB
 title: ondfisk - rants from the cloud
 email: rasmus@lystroem.dk
-description: ""
+description: Private site/blog of Rasmus Lystrøm. The opinions expressed herein are my own personal opinions and do not represent my employer's view in any way.
 baseurl: "" # the subpath of your site, e.g. /blog
 author: Rasmus Lystrøm
-disclaimer: The opinions expressed herein are my own personal opinions and do not represent my employer's view in any way.
 url: https://ondfisk.dk/
+show_excerpts: true
 github_username:  ondfisk
 linkedin_username: rasmuslystroem
+sessionize_username: ondfisk
+speakerdeck_username: ondfisk
+rss: RSS
 
 # Build settings
 theme: minima

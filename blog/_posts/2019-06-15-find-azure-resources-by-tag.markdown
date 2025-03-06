@@ -1,18 +1,21 @@
 ---
 layout: post
 title: Find Azure Resources By Tag
+author: Rasmus Lystrøm
 date: 2019-06-15 10:27:44 +0200
-categories: azure naming powershell
+categories: azure
 permalink: find-azure-resources-by-tag/
+excerpt_separator: <!--more-->
+type: blog
 ---
 
-Here is a set of options
+Now that you don't care about resource names in Azure any more. You have decided to tag all resource groups and resources with an appropriate set of tags:
 
-Now that you don't care about resource names in Azure anymore. You have decided to tag all resource groups and resources with an appropriate set of tags:
+<!--more-->
 
 | Tag Name | Tag Value |
 | --- | --- |
-| Environent | Development / Test / Production |
+| Environment | Development / Test / Production |
 | Cost Center | [number] |
 | Owner | [email-address] |
 

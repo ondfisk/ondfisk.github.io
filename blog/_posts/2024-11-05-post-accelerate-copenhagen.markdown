@@ -1,16 +1,19 @@
 ---
 layout: post
-title: 'Talk: Post "Accelerate": Why are we still failing at adopting DevOps in the Enterprise? - Copenhagen 2024'
+title: 'Post "Accelerate": Why are we still failing at adopting DevOps in the Enterprise?'
+author: Rasmus Lystrøm
 date: 2024-11-05 10:00:00 +0100
-categories: talks devops
+categories: devops
 permalink: post-accelerate-copenhagen-2024/
+excerpt_separator: <!--more-->
+type: talk
 ---
 
 Talk given at *The DevOps Conference* - now [*The Future of Software*](https://www.thefutureofsoftware.com/) in Copenhagen November 5, 2024.
 
-## Abstract
-
 24 years of agile, 17 years of DevOps and 6 years after "Accelerate" got published we see enterprises doing business as usual reaping no real benefits of either agile nor DevOps. Reflecting back on 10 years as a principal consultant and cloud solution architect at Microsoft working with practically all the major Danish enterprises and a big number of European ones, I want to share my views on why enterprises fail at adopting DevOps and what we should be doing to change that.
+
+<!--more-->
 
 ## Slides
 

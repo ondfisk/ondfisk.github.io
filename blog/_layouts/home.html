@@ -1,0 +1,51 @@
+---
+layout: default
+---
+
+<div class="home">
+  {%- if page.title -%}
+    <h1 class="page-heading">{{ page.title }}</h1>
+  {%- endif -%}
+
+  {{ content }}
+
+  {%- if site.posts.size > 0 -%}
+    <h2 class="post-list-heading">{{ page.list_title | default: "Posts" }}</h2>
+    <ul class="post-list">
+      {%- for post in site.posts -%}
+      <li>
+        {%- assign date_format = site.minima.date_format | default: "%b %-d, %Y" -%}
+        <h3>
+          <a class="post-link" href="{{ post.url | relative_url }}">
+            {{ post.title | escape }}
+          </a>
+          <p class="post-meta">
+            {%- if post.type == 'blog' -%}
+            <i class="fa-solid fa-file"></i> Blog&nbsp;
+            {%- endif -%}
+            {%- if post.type == 'talk' -%}
+            <i class="fa-solid fa-bullhorn"></i> Talk&nbsp;
+            {%- endif -%}
+            <time class="dt-published" datetime="{{ post.date | date_to_xmlschema }}" itemprop="datePublished">
+              {%- assign date_format = site.minima.date_format | default: "%b %-d, %Y" -%}
+              <i class="fa-solid fa-calendar"></i> {{ post.date | date: date_format }}
+            </time>
+            {%- if post.author -%}
+            <i class="fa-solid fa-user"></i> <span itemprop="author" itemscope itemtype="http://schema.org/Person"><span class="p-author h-card" itemprop="name">{{ post.author }}</span></span>&nbsp;
+            {%- endif -%}
+            {%- if post.categories -%}
+            <i class="fa-solid fa-tag"></i> {{ post.categories }}
+            {%- endif -%}
+            </p>
+        </h3>
+        {%- if site.show_excerpts -%}
+          {{ post.excerpt }}
+        {%- endif -%}
+      </li>
+      {%- endfor -%}
+    </ul>
+
+    <p class="rss-subscribe">subscribe <a href="{{ "/feed.xml" | relative_url }}">via RSS</a></p>
+  {%- endif -%}
+
+</div>
