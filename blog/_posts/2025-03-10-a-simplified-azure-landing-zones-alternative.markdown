@@ -19,7 +19,7 @@ To monitor your Azure platform, deploying an additional project: [Azure Monitor 
 
 ## Complexity
 
-All the reference implementations above suffer from the authors' incessant need to continuously add more *stuff*. Each implementation is a very large and daunting code bases which means that from a beginner's perspective they are almost impossible to get a grip on - let alone understand how to extend.
+All the reference implementations above suffer from the authors' incessant need to continuously add more *stuff*. All implementations have very large and daunting code bases, which means that they are almost impossible to get a grip on - let alone understand how to extend.
 
 To remedy these challenges we introduce a *simplified* implementation which should allow platform teams to much more easily reason about and understand what they are trying to build.
 
@@ -44,7 +44,7 @@ cloc --include-lang=JSON,PowerShell,Bourne\ Shell,HCL,Standard\ ML,YAML --force-
 
 Assuming you prefer *Terraform*, you need to *inherit*, *support*, *understand*, and *reason* about at least **52,106** lines of code across *442* files! Then extend the code with your own requirements. This is going to be really *hard* even with a reasonably sized team (4-6 people)
 
-Should you want to use the original *Enterprise Scale* version with *Baseline Alerts*, you need to *inherit*, *support*, *understand*, and *reason* about at most *988,370* lines of code across *3,507* files! This is not *hard*. This is completely *impossible* regardless of team size.
+Worst case scenario: You have deployed the original *Enterprise Scale* version with *Baseline Alerts*. You now need to *support*, *understand*, and *reason* about *988,370* lines of code across *3,507* files! This is not *hard*. This is completely *impossible* regardless of team size.
 
 Compare this to the *simplified* version with *3,819* lines of code across *82* files.
 
@@ -93,9 +93,9 @@ Having deployed these policies we enforce the following security defaults on sto
 - Default to OAuth (`defaultToOAuthAuthentication`)
 - Enable [Defender for Storage](https://learn.microsoft.com/en-us/azure/defender-for-cloud/defender-for-storage-introduction)
 
-**NB**: We use [*modify*](https://learn.microsoft.com/en-us/azure/governance/policy/concepts/effect-modify) and [deploy if not exists](https://learn.microsoft.com/en-us/azure/governance/policy/concepts/effect-deploy-if-not-exists) policy effects to ensure existing storage accounts are also governed by the same rules.
+**NB**: We use [*modify*](https://learn.microsoft.com/en-us/azure/governance/policy/concepts/effect-modify) and [deploy if not exists](https://learn.microsoft.com/en-us/azure/governance/policy/concepts/effect-deploy-if-not-exists) policy effects to ensure that issues with existing storage accounts are automatically remediated.
 
-**NBB**: Security relies exclusively on [*zero trust*](https://learn.microsoft.com/en-us/security/zero-trust/) principles of identity-based security (disabling keys) and encryption in transit (HTTPS/TLS 1.2).
+**NBB**: Security relies on [*zero trust*](https://learn.microsoft.com/en-us/security/zero-trust/) principles of identity-based security (disabling keys) and encryption in transit (HTTPS/TLS 1.2).
 
 Having done this, a storage account can be deployed with a very simple *Bicep* template:
 
