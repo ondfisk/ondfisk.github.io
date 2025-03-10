@@ -140,4 +140,4 @@ However, we still recommend to *not* connect the corporate network at all and re
 
 We hope this project can serve as a reminder that often *less is more* and getting started should never require you to deploy up to a million lines of code you don't understand.
 
-Check out [Azure Landing Zones Demo](https://github.com/ondfisk/AzureLandingZonesDemo) and let us know what you think using *Issues*, *Starts*, and *Pull Requests*.
+Check out [Azure Landing Zones Demo](https://github.com/ondfisk/AzureLandingZonesDemo) and let us know what you think using *Issues*, *Stars*, and *Pull Requests*.
