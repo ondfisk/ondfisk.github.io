@@ -126,7 +126,7 @@ The policies ensure that the platform enforces a *reasonable* set of security de
 
 Compare the **12** lines of code in *Bicep* above to the [*Azure Verified Module*](https://github.com/Azure/bicep-registry-modules/blob/main/avm/res/storage/storage-account) version which contains **3,531** lines of *Bicep* across **29** files (**738** lines in the root file).
 
-Yes, the *official* module can do more stuff (mostly [YAGNI](https://en.wikipedia.org/wiki/You_aren%27t_gonna_need_it)), however, which implementation would you rather reason about or support going forward?
+Yes, the *official* module can do more stuff (mostly [YAGNI](https://en.wikipedia.org/wiki/You_aren%27t_gonna_need_it)), but we must ask the question: Which implementation would you rather reason about and support going forward?
 
 The same principles apply for web apps, key vaults, and SQL. This can be extended quite easily but we deliberately want to keep the reference implementation *simple*. *Pull requests* are welcome, though.
 
