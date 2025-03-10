@@ -128,8 +128,16 @@ Compare the **12** lines of code in *Bicep* above to the [*Azure Verified Module
 
 Yes, the *official* module can do more stuff (mostly [YAGNI](https://en.wikipedia.org/wiki/You_aren%27t_gonna_need_it)), however, which implementation would you rather reason about or support going forward?
 
+The same principles apply for web apps, key vaults, and SQL. This can be extended quite easily but we deliberately want to keep the reference implementation *simple*. *Pull requests* are welcome, though.
+
 ## What about the corporate network?
 
 Cloud applications should *never* be connected to the on-premises network on the network layer. Doing so adds an unnecessary  dependency and makes things way to hard. That said some legacy applications will move to the cloud eventually. To support this [Virtual WAN](https://azure.microsoft.com/en-us/products/virtual-wan/) and [ExpressRoute](https://azure.microsoft.com/en-us/products/expressroute/) can be deployed. This network setup is equal parts expensive and complex while completely tied into your organisation's existing network setup. Because of this we do not want to or mandate a *reference architecture*. This must be done bespoke every time.
 
 However, we still recommend to *not* connect the corporate network at all and rely on *Azure Relay* and *Azure Service Bus* instead.
+
+## Conclusion
+
+We hope this project can serve as a reminder that often *less is more* and getting started should never require you to deploy up to a million lines of code you don't understand.
+
+Check out [Azure Landing Zones Demo](https://github.com/ondfisk/AzureLandingZonesDemo) and let us know what you think using *Issues*, *Starts*, and *Pull Requests*.
