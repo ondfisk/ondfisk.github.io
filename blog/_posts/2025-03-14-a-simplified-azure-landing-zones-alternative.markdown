@@ -2,7 +2,7 @@
 layout: post
 title: A simplified Azure Landing Zones alternative
 author: Rasmus Lystrøm
-date: 2025-03-10 10:00:00 +0100
+date: 2025-03-14 10:00:00 +0100
 categories: azure
 permalink: a-simplified-azure-landing-zones-alternative/
 excerpt_separator: <!--more-->
