@@ -2,7 +2,7 @@
 layout: post
 title: A simplified Azure Landing Zones alternative
 author: Rasmus Lystrøm
-date: 2025-03-13 10:00:00 +0100
+date: 2025-03-17 13:00:00 +0100
 categories: azure
 permalink: a-simplified-azure-landing-zones-alternative/
 excerpt_separator: <!--more-->
@@ -60,7 +60,7 @@ To quote the docs:
 >
 > We do not require nor encourage the use of [Azure Private Link](https://azure.microsoft.com/en-gb/products/private-link/).
 >
-> We allow most services to have **Public Network Access: Enabled** because we rely on enforcing **Entra ID** authentication and TLS encryption.
+> We allow most services to have **Public Network Access: Enabled** because we rely on enforcing **Entra ID authentication** and **HTTPS/TLS 1.2+**.
 >
 > ### Online Landing Zones
 >
@@ -110,9 +110,7 @@ resource storageAccount 'Microsoft.Storage/storageAccounts@2023-05-01' = {
   sku: {
     name: 'Standard_LRS'
   }
-  properties: {
-    accessTier: 'Hot'
-  }
+  properties: {}
 }
 ```
 
@@ -132,9 +130,9 @@ The same principles apply for web apps, key vaults, and SQL. This can be extende
 
 ## What about the corporate network?
 
-Cloud applications should *never* be connected to the on-premises network on the network layer. Doing so adds an unnecessary  dependency and makes things way to hard. That said some legacy applications will move to the cloud eventually. To support this [Virtual WAN](https://azure.microsoft.com/en-us/products/virtual-wan/) and [ExpressRoute](https://azure.microsoft.com/en-us/products/expressroute/) can be deployed. This network setup is equal parts expensive and complex while completely tied into your organisation's existing network setup. Because of this we do not want to or mandate a *reference architecture*. This must be done bespoke every time.
+Cloud applications should *never* be connected to the on-premises network on the network layer. Doing so adds an unnecessary dependency and makes things less secure. Even for lift and shift of legacy applications where a connection to the on-premises network seems like the only option there are often more secure alternatives like [Microsoft Entra Domain Services](https://azure.microsoft.com/en-us/products/microsoft-entra-ds/). If all else fails and you must connect on-premises with IPv4 this will be equal parts expensive and complex while relying on your organisation's existing network setup. Because of this we do not want to or mandate a *reference architecture*. This must be done bespoke every time.
 
-However, we still recommend to *not* connect the corporate network at all and rely on *Azure Relay* and *Azure Service Bus* instead.
+Once again, we still recommend to *not* connect the corporate network at all and rely on *Azure Relay* and *Azure Service Bus* instead.
 
 ## Conclusion
 
