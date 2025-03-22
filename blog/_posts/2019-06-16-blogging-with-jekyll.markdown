@@ -3,8 +3,8 @@ layout: post
 title: Blogging with Jekyll
 author: Rasmus Lystrøm
 date: 2019-06-15 10:27:44 +0200
-updated: 2025-03-03
-updated_message: updated with current setup
+updated: 2025-03-22
+updated_message: moved to GitHub Pages
 categories: jekyll
 permalink: blogging-with-jekyll/
 excerpt_separator: <!--more-->
@@ -15,9 +15,9 @@ I'm very much a fan of [Markdown](https://daringfireball.net/projects/markdown/)
 
 <!--more-->
 
-The code is hosted on [GitHub](https://github.com/ondfisk/ondfisk.dk).
+The code is hosted on [GitHub](https://github.com/ondfisk/ondfisk.github.io).
 
-The site is hosted on [Azure Static Web Apps](https://azure.microsoft.com/en-us/products/app-service/static) at [ondfisk.dk](https://ondfisk.dk/).
+The site is hosted on [GitHub Pages](https://pages.github.com/) at [ondfisk.dk](https://ondfisk.dk/).
 
 ## Development
 
@@ -50,7 +50,7 @@ Working with Jekyll locally is made easy using a [development container](https:/
 To run the site locally (using [WSL2](https://learn.microsoft.com/en-us/windows/wsl/)):
 
 ```bash
-git clone https://github.com/ondfisk/ondfisk.dk.git
+git clone https://github.com/ondfisk/ondfisk.github.io.git
 cd ondfisk.dk
 code .
 # Open dev container
@@ -63,32 +63,63 @@ jekyll serve
 
 Build and deploy using GitHub Actions:
 
-`.github/workflows/azure-static-web-apps.yml`:
+`.github/workflows/pages.yml`:
 
 ```yaml
-name: Azure Static Web Apps CI/CD
+name: Deploy site to Pages
 
 on:
   push:
     branches:
       - main
 
+  workflow_dispatch:
+
+permissions:
+  contents: read
+  pages: write
+  id-token: write
+
+concurrency:
+  group: pages
+  cancel-in-progress: false
+
 jobs:
-  build_and_deploy_job:
+  build:
     runs-on: ubuntu-latest
-    name: Build and Deploy Job
-    permissions:
-       id-token: write
-       contents: read
     steps:
       - name: Checkout
         uses: actions/checkout@v4
-      - name: Deploy
-        uses: Azure/static-web-apps-deploy@v1
+      - name: Setup Ruby
+        uses: ruby/setup-ruby@v1
         with:
-            ...
+          ruby-version: 3.3
+          bundler-cache: true
+          working-directory: blog/
+      - name: Setup Pages
+        id: pages
+        uses: actions/configure-pages@v5
+      - name: Build with Jekyll
+        run: |
+          bundle exec jekyll build --baseurl "${{ steps.pages.outputs.base_path }}"
         env:
-            JEKYLL_ENV: production
+          JEKYLL_ENV: production
+        working-directory: blog/
+      - name: Upload artifact
+        uses: actions/upload-pages-artifact@v3
+        with:
+          path: blog/_site
+
+  deploy:
+    environment:
+      name: github-pages
+      url: ${{ steps.deployment.outputs.page_url }}
+    runs-on: ubuntu-latest
+    needs: build
+    steps:
+      - name: Deploy to GitHub Pages
+        id: deployment
+        uses: actions/deploy-pages@v4
 ```
 
 Inspired by [Getting started with Jekyll blog hosted on Azure static website](https://gunnarpeipman.com/jekyll-azure-devops-static-blog/).
