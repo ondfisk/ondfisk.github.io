@@ -1,5 +1,5 @@
 ---
-name: Deploy site to Pages
+name: Deploy to Pages
 
 on:
   push:

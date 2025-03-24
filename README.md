@@ -1,6 +1,6 @@
-# ondfisk.dk
+# [ondfisk.dk](https://ondfisk.dk/)
 
-Source code for [ondfisk.dk](https://ondfisk.dk/)
+Source code for [ondfisk.dk](https://ondfisk.dk/).
 
 ## Run
 
