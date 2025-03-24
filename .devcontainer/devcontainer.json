@@ -9,6 +9,7 @@
 				"esbenp.prettier-vscode",
 				"github.copilot",
 				"github.copilot-chat",
+				"github.vscode-github-actions",
 				"github.vscode-pull-request-github",
 				"redhat.vscode-yaml",
 				"shopify.ruby-extensions-pack",

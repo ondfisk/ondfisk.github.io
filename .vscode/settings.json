@@ -3,13 +3,18 @@
     "cSpell.language": "en-GB",
     "cSpell.words": [
         "Blazor",
+        "CAITO",
+        "cloc",
         "davidanson",
         "devcontainers",
+        "Entra",
+        "esbenp",
         "frontend",
         "Lystrøm",
         "ondfisk",
         "rasmuslystroem",
-        "sass"
+        "sass",
+        "Zürich"
     ],
     "editor.trimAutoWhitespace": true,
     "files.autoSave": "afterDelay",
