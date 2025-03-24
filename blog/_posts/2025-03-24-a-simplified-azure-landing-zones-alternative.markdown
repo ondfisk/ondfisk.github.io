@@ -19,7 +19,7 @@ To monitor your Azure platform, deploying an additional project: [Azure Monitor 
 
 ## Complexity
 
-All the reference implementations above suffer from the authors' incessant need to continuously add more *stuff*. All implementations have very large and daunting code bases, which means that they are almost impossible to get a grip on - let alone understand how to extend.
+All the reference implementations above suffer from the authors' incessant need to continuously add more *stuff*. The implementations have very large and daunting code bases, which means that they are almost impossible to get a grip on - let alone understand how to extend.
 
 To remedy these challenges we introduce a *simplified* implementation which should allow platform teams to much more easily reason about and understand what they are trying to build.
 
@@ -44,9 +44,11 @@ cloc --include-lang=JSON,PowerShell,Bourne\ Shell,HCL,Standard\ ML,YAML --force-
 
 Assuming you prefer *Terraform*, you need to *inherit*, *support*, *understand*, and *reason* about at least **52,106** lines of code across *442* files! Then extend the code with your own requirements. This is going to be really *hard* even with a reasonably sized team (4-6 people)
 
-Worst case scenario: You have deployed the original *Enterprise Scale* version with *Baseline Alerts*. You now need to *support*, *understand*, and *reason* about *988,370* lines of code across *3,507* files! This is not *hard*. This is completely *impossible* regardless of team size.
+Worst case scenario: You have deployed the original *Enterprise Scale* version using the *Portal Experience* [read: *ClickOps*] and added *Baseline Alerts*. You now need somehow reverse engineer your setup into *Infrastructure as Code* while trying to *support*, *understand*, and *reason* about and alert framework consisting of *796,794* lines of code across *2,475* files! This is not *hard*. This is completely *impossible* regardless of team size.
 
 Compare this to the *simplified* version with *3,819* lines of code across *82* files.
+
+Which version would you rather start with?
 
 ## What does *simplified* mean here?
 
@@ -136,6 +138,6 @@ Once again, we still recommend to *not* connect the corporate network at all and
 
 ## Conclusion
 
-We hope this project can serve as a reminder that often *less is more* and getting started should never require you to deploy up to a million lines of code you don't understand.
+We hope this project can serve as a reminder that often *less is more* and getting started should never require you to deploy almost a million lines of code you don't understand.
 
 Check out [Azure Landing Zones Demo](https://github.com/ondfisk/AzureLandingZonesDemo) and let us know what you think using *Issues*, *Stars*, and *Pull Requests*.
