@@ -18,3 +18,7 @@ Ignite Talk given at [*DevOpsDays Zürich 2025*](https://www.devopsdays.ch/) -- 
 ## Slides
 
 <script defer class="speakerdeck-embed" data-id="16886a4b26b74ac7b6b0012a42b4ea78" data-ratio="1.7777777777777777" src="//speakerdeck.com/assets/embed.js"></script>
+
+## Recording
+
+[Rasmus Lystrøm: Post "Accelerate": Why are we still failing at adopting DevOps in the Enterprise?](https://vimeo.com/1070639488)

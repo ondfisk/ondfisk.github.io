@@ -26,4 +26,4 @@ These websites may collect data about you, use cookies, embed additional third-p
 
 ## Analytics
 
-None!
+[Simple Analytics](https://www.simpleanalytics.com/).

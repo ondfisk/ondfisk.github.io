@@ -2,7 +2,7 @@
 layout: post
 title: 'Post "Accelerate": Why are we still failing at adopting DevOps in the Enterprise?'
 author: Rasmus Lystrøm
-date: 2025-04-30 10:00:00 +0100
+date: 2025-04-30 10:00:00 +0200
 categories: devops
 permalink: post-accelerate-aarhus-2025/
 excerpt_separator: <!--more-->
@@ -17,4 +17,4 @@ Ignite Talk given at [*DevOpsDays Aarhus 2025*](https://devopsdays.org/events/20
 
 ## Slides
 
-<script defer class="speakerdeck-embed" data-id="16886a4b26b74ac7b6b0012a42b4ea78" data-ratio="1.7777777777777777" src="//speakerdeck.com/assets/embed.js"></script>
+...
