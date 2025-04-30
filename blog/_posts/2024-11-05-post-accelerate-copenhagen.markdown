@@ -22,3 +22,17 @@ Lightning Talk given at *The DevOps Conference* -- now [*The Future of Software*
 ## Recording
 
 <iframe width="560" height="315" src="https://www.youtube.com/embed/dOdTKpYUOAQ?si=xJsGO0OQh7Fknzcc" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+
+## Photos
+
+![The DevOps Conference Copenhagen 2025 - 08076](/assets/the-devops-conference-copenhagen-2024-08076.jpg "The DevOps Conference Copenhagen 2025 - 08076")
+
+![The DevOps Conference Copenhagen 2025 - 08079](/assets/the-devops-conference-copenhagen-2024-08079.jpg "The DevOps Conference Copenhagen 2025 - 08079")
+
+![The DevOps Conference Copenhagen 2025 - 08082](/assets/the-devops-conference-copenhagen-2024-08082.jpg "The DevOps Conference Copenhagen 2025 - 08082")
+
+![The DevOps Conference Copenhagen 2025 - 08092](/assets/the-devops-conference-copenhagen-2024-08092.jpg "The DevOps Conference Copenhagen 2025 - 08092")
+
+![The DevOps Conference Copenhagen 2025 - 08094](/assets/the-devops-conference-copenhagen-2024-08094.jpg "The DevOps Conference Copenhagen 2025 - 08094")
+
+![The DevOps Conference Copenhagen 2025 - 08098](/assets/the-devops-conference-copenhagen-2024-08098.jpg "The DevOps Conference Copenhagen 2025 - 08098")

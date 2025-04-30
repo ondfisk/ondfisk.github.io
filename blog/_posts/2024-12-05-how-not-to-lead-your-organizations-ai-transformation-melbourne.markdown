@@ -31,3 +31,23 @@ As a final note I present a perspective asking "Why is AI going the the wrong di
 ## Slides
 
 <script defer class="speakerdeck-embed" data-id="9af1de95e1cc4ed892e1df8d28f24ee8" data-ratio="1.7777777777777777" src="//speakerdeck.com/assets/embed.js"></script>
+
+## Photos
+
+![YOW! Melbourne 2024 - 54205951522](/assets/yow-melbourne-2024_54205951522_o.jpg "YOW! Melbourne 2024 - 54205951522")
+
+![YOW! Melbourne 2024 - 54205994147](/assets/yow-melbourne-2024_54205994147_o.jpg "YOW! Melbourne 2024 - 54205994147")
+
+![YOW! Melbourne 2024 - 54205995052](/assets/yow-melbourne-2024_54205995052_o.jpg "YOW! Melbourne 2024 - 54205995052")
+
+![YOW! Melbourne 2024 - 54206862946](/assets/yow-melbourne-2024_54206862946_o.jpg "YOW! Melbourne 2024 - 54206862946")
+
+![YOW! Melbourne 2024 - 54206882516](/assets/yow-melbourne-2024_54206882516_o.jpg "YOW! Melbourne 2024 - 54206882516")
+
+![YOW! Melbourne 2024 - 54207119688](/assets/yow-melbourne-2024_54207119688_o.jpg "YOW! Melbourne 2024 - 54207119688")
+
+![YOW! Melbourne 2024 - 54207132598](/assets/yow-melbourne-2024_54207132598_o.jpg "YOW! Melbourne 2024 - 54207132598")
+
+![YOW! Melbourne 2024 - 54207195138](/assets/yow-melbourne-2024_54207195138_o.jpg "YOW! Melbourne 2024 - 54207195138")
+
+![YOW! Melbourne 2024 - 54207261230](/assets/yow-melbourne-2024_54207261230_o.jpg "YOW! Melbourne 2024 - 54207261230")
