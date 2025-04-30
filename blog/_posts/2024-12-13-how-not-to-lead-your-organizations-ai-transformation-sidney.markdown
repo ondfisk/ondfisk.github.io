@@ -31,3 +31,9 @@ As a final note I present a perspective asking "Why is AI going the the wrong di
 ## Slides
 
 <script defer class="speakerdeck-embed" data-id="9af1de95e1cc4ed892e1df8d28f24ee8" data-ratio="1.7777777777777777" src="//speakerdeck.com/assets/embed.js"></script>
+
+## Photos
+
+![YOW! Sidney 2024 - 54201295848](/assets/yow-sydney-2024_54201295848_o.jpg "YOW! Sidney 2024 - 54201295848")
+
+![YOW! Sidney 2024 - 54201333750](/assets/yow-sydney-2024_54201333750_o.jpg "YOW! Sidney 2024 - 54201333750")

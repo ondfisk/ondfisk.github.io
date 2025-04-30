@@ -18,3 +18,17 @@ Ignite Talk given at [*DevOpsDays Aarhus 2025*](https://devopsdays.org/events/20
 ## Slides
 
 <script defer class="speakerdeck-embed" data-id="acd03c51630944b5b0073c280ebb9f4d" data-ratio="1.7777777777777777" src="//speakerdeck.com/assets/embed.js"></script>
+
+## Photos
+
+![DevOps Days Aarhus 2025 - 141](/assets/devopsdays-aarhus-141.jpg "DevOps Days Aarhus 2025 - 141")
+
+![DevOps Days Aarhus 2025 - 143](/assets/devopsdays-aarhus-143.jpg "DevOps Days Aarhus 2025 - 143")
+
+![DevOps Days Aarhus 2025 - 144](/assets/devopsdays-aarhus-144.jpg "DevOps Days Aarhus 2025 - 144")
+
+![DevOps Days Aarhus 2025 - 146](/assets/devopsdays-aarhus-146.jpg "DevOps Days Aarhus 2025 - 146")
+
+![DevOps Days Aarhus 2025 - 184](/assets/devopsdays-aarhus-184.jpg "DevOps Days Aarhus 2025 - 184")
+
+![DevOps Days Aarhus 2025 - 185](/assets/devopsdays-aarhus-185.jpg "DevOps Days Aarhus 2025 - 185")

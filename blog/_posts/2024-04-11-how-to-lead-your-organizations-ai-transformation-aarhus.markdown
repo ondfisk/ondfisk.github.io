@@ -19,8 +19,18 @@ Reflecting on the recent advent of AI code assistants and the hype around genera
 
 <script defer class="speakerdeck-embed" data-id="024bdb8dea274ad69e1a8dfb1dee5660" data-ratio="1.7777777777777777" src="//speakerdeck.com/assets/embed.js"></script>
 
-## Recording
+## Photos
 
-(Recording from Copenhagen)
+![Code Evolution Aarhus 2024 - 112021](/assets/code-evolution-aarhus-2024_112021.jpg "Code Evolution Aarhus 2024 - 112021")
 
-<iframe width="560" height="315" src="https://www.youtube.com/embed/0TQ2BLs_ofc?si=uiSZ0HemvxcG3nPX" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+![Code Evolution Aarhus 2024 - 112043](/assets/code-evolution-aarhus-2024_112043.jpg "Code Evolution Aarhus 2024 - 112043")
+
+![Code Evolution Aarhus 2024 - 112201](/assets/code-evolution-aarhus-2024_112201.jpg "Code Evolution Aarhus 2024 - 112201")
+
+![Code Evolution Aarhus 2024 - 113156](/assets/code-evolution-aarhus-2024_113156.jpg "Code Evolution Aarhus 2024 - 113156")
+
+![Code Evolution Aarhus 2024 - 114333](/assets/code-evolution-aarhus-2024_114333.jpg "Code Evolution Aarhus 2024 - 114333")
+
+![Code Evolution Aarhus 2024 - 114631](/assets/code-evolution-aarhus-2024_114631.jpg "Code Evolution Aarhus 2024 - 114631")
+
+![Code Evolution Aarhus 2024 - 114856](/assets/code-evolution-aarhus-2024_114856.jpg "Code Evolution Aarhus 2024 - 114856")
