@@ -1,6 +1,6 @@
 ---
 layout: post
-title: "Reflections of AI: The Art of AI Adoption"
+title: "Reflections of AI: A Trilogy in Four Parts"
 author: Rasmus Lystrøm
 date: 2025-06-19 10:00:00 +1000
 categories: ai
@@ -11,7 +11,7 @@ type: talk
 
 Keynote given at [*YOW! Tech Leaders Summit Melbourne 2025*](https://yowcon.com/tech-leaders-melbourne-2025) June 19, 2025.
 
-A trilogy in four parts:
+Reflecting on the era of AI, I present my views as a Trilogy in Four Parts:
 
 - The *impact* of generative AI adoption
 - The [hidden] price of AI adoption
