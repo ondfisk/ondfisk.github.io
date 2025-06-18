@@ -22,4 +22,4 @@ Reflecting on the era of AI, I present my views as a Trilogy in Four Parts:
 
 ## Slides
 
-<script></script>
+<script defer class="speakerdeck-embed" data-id="9be9875727eb4fbaa71e01443e113e4f" data-ratio="1.7777777777777777" src="//speakerdeck.com/assets/embed.js"></script>

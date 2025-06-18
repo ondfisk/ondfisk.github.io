@@ -4,12 +4,12 @@ title: "Reflections of AI: A Trilogy in Four Parts"
 author: Rasmus Lystrøm
 date: 2025-06-18 10:00:00 +1000
 categories: ai
-permalink: reflections-of-ai-sidney-2025/
+permalink: reflections-of-ai-sydney-2025/
 excerpt_separator: <!--more-->
 type: keynote
 ---
 
-Keynote given at [*YOW! Tech Leaders Summit Sidney 2025*](https://yowcon.com/tech-leaders-sidney-2025) June 18, 2025.
+Keynote given at [*YOW! Tech Leaders Summit Sydney 2025*](https://yowcon.com/tech-leaders-sydney-2025) June 18, 2025.
 
 Reflecting on the era of AI, I present my views as a Trilogy in Four Parts:
 

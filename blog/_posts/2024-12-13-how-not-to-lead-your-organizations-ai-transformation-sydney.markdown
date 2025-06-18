@@ -4,12 +4,12 @@ title: "How [not] to Lead your Organization's AI transformation: Strategies, Ski
 author: Rasmus Lystrøm
 date: 2024-12-13 10:00:00 +0100
 categories: ai
-permalink: how-not-to-lead-your-organizations-ai-transformation-sidney-2024/
+permalink: how-not-to-lead-your-organizations-ai-transformation-sydney-2024/
 excerpt_separator: <!--more-->
 type: talk
 ---
 
-Talk given at [*YOW!*](https://yowcon.com/) in Sidney December 13, 2024.
+Talk given at [*YOW!*](https://yowcon.com/) in Sydney December 13, 2024.
 
 In this talk I present four leadership strategies for adopting generative AI:
 
@@ -34,6 +34,6 @@ As a final note I present a perspective asking "Why is AI going the the wrong di
 
 ## Photos
 
-![YOW! Sidney 2024 - 54201295848](/assets/yow-sydney-2024_54201295848_o.jpg "YOW! Sidney 2024 - 54201295848")
+![YOW! Sydney 2024 - 54201295848](/assets/yow-sydney-2024_54201295848_o.jpg "YOW! Sydney 2024 - 54201295848")
 
-![YOW! Sidney 2024 - 54201333750](/assets/yow-sydney-2024_54201333750_o.jpg "YOW! Sidney 2024 - 54201333750")
+![YOW! Sydney 2024 - 54201333750](/assets/yow-sydney-2024_54201333750_o.jpg "YOW! Sydney 2024 - 54201333750")
