@@ -6,7 +6,7 @@ date: 2025-06-17 10:00:00 +1000
 categories: ai
 permalink: reflections-of-ai-brisbane-2025/
 excerpt_separator: <!--more-->
-type: talk
+type: keynote
 ---
 
 Keynote given at [*YOW! Tech Leaders Summit Brisbane 2025*](https://yowcon.com/tech-leaders-brisbane-2025) June 17, 2025.

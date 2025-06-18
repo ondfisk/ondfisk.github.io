@@ -26,6 +26,9 @@ layout: default
             {%- if post.type == 'talk' -%}
             <i class="fa-solid fa-bullhorn"></i> Talk&nbsp;
             {%- endif -%}
+            {%- if post.type == 'keynote' -%}
+            <i class="fa-solid fa-microphone"></i> Keynote&nbsp;
+            {%- endif -%}
             <time class="dt-published" datetime="{{ post.date | date_to_xmlschema }}" itemprop="datePublished">
               {%- assign date_format = site.minima.date_format | default: "%b %-d, %Y" -%}
               <i class="fa-solid fa-calendar"></i> {{ post.date | date: date_format }}

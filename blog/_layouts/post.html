@@ -12,6 +12,9 @@ layout: default
       {%- if page.type == 'talk' -%}
       <i class="fa-solid fa-bullhorn"></i> Talk&nbsp;
       {%- endif -%}
+      {%- if page.type == 'keynote' -%}
+      <i class="fa-solid fa-microphone"></i> Keynote&nbsp;
+      {%- endif -%}
       <time class="dt-published" datetime="{{ page.date | date_to_xmlschema }}" itemprop="datePublished">
         {%- assign date_format = site.minima.date_format | default: "%b %-d, %Y" -%}
         <i class="fa-solid fa-calendar"></i> {{ page.date | date: date_format }}

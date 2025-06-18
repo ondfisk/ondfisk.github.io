@@ -6,7 +6,7 @@ date: 2025-02-27 10:00:00 +0100
 categories: ai
 permalink: reflections-of-ai-copenhagen-2025/
 excerpt_separator: <!--more-->
-type: talk
+type: keynote
 ---
 
 Keynote given at [*AI Tools for Developers: Leveraging AI Tools for Enhanced Software Development*](https://trifork.info/ai-tools-for-developers-2025) in Copenhagen February 27, 2025.
