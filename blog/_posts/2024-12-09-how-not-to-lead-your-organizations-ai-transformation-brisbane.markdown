@@ -18,7 +18,7 @@ In this talk I present four leadership strategies for adopting generative AI:
 1. Leadership strategy no. 3: Hire a CAIO or maybe a CAITO aka "New Silo"
 1. Leadership strategy no. 4: Enable a paid service for everyone
 
- <!--more-->
+<!--more-->
 
 Having chosen one the any of the above inevitably your people are now leveraging generative AI to do work.
 

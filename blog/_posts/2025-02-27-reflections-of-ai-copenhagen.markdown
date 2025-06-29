@@ -18,7 +18,7 @@ A trilogy in four parts:
 - Useful AI in a world saturated with LLMs
 - How to build [valuable] AI solutions
 
- <!--more-->
+<!--more-->
 
 ## Slides
 

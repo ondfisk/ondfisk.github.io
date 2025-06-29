@@ -21,7 +21,7 @@
 lang: en-GB
 title: ondfisk - rants from the cloud
 email: rasmus@lystroem.dk
-description: Private site/blog of Rasmus Lystrøm. This site, its content and opinions are my own.
+description: Personal site/blog of Rasmus Lystrøm. This site, its content and opinions are my own.
 baseurl: "" # the subpath of your site, e.g. /blog
 author: Rasmus Lystrøm
 url: https://ondfisk.dk/

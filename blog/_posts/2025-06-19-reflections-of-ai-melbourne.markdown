@@ -18,7 +18,7 @@ Reflecting on the era of AI, I present my views as a Trilogy in Four Parts:
 - Useful AI in a world saturated with LLMs
 - How to build [valuable AI] solutions
 
- <!--more-->
+<!--more-->
 
 ## Slides
 
