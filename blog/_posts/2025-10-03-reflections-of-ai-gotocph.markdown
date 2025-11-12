@@ -42,7 +42,12 @@ I promise a mix of rants, wakeup calls, and laughs.
 - [As Klarna flips from AI-first to hiring people again, a new landmark survey reveals most AI projects fail to deliver](https://fortune.com/2025/05/09/klarna-ai-humans-return-on-investment/)
 - [Wardley, Simon: Pioneers, Settlers, and Town Planners](https://blog.gardeviance.org/2015/03/on-pioneers-settlers-town-planners-and.html)
 
-
 ## Slides
 
 <script defer class="speakerdeck-embed" data-id="ce7164f8538d420696054118d6a49a34" data-ratio="1.7777777777777777" src="//speakerdeck.com/assets/embed.js"></script>
+
+## Photos
+
+![GOTO; Copenhagen 2025 - 1](/assets/gotocph-2025-1.jpg "GOTO; Copenhagen 2025 - 1")
+
+![GOTO; Copenhagen 2025 - 2](/assets/gotocph-2025-2.jpg "GOTO; Copenhagen 2025 - 2")
