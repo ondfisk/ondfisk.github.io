@@ -12,4 +12,4 @@ My name is Rasmus Lystrøm. I am the *Chief Disruptor* and an International Spea
 
 ## Certifications
 
-{%- include certifications.html -%}
+{% include certifications.html  %}
