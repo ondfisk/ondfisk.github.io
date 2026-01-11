@@ -43,6 +43,10 @@ certifications:
     image: "https://images.credly.com/size/340x340/images/71c579e0-51fd-4247-b493-d2fa8167157a/image.png"
     title: "Google Cloud Certified: Professional Cloud Architect"
 
+  - url: "https://www.credly.com/badges/416524d6-9ef3-4f3b-9524-b943756c3092/public_url"
+    image: "https://images.credly.com/size/340x340/images/614465c6-1d80-4ae6-a323-753de224422a/image.png"
+    title: "Google Cloud Certified: Professional Cloud Developer"
+
   - url: "https://www.credly.com/badges/254cd305-1228-4eda-bfe2-22de71bb593b/public_url"
     image: "https://images.credly.com/size/340x340/images/08096465-cbfc-4c3e-93e5-93c5aa61f23e/image.png"
     title: "Google Cloud Certified: Associate Cloud Engineer"
