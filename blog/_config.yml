@@ -26,7 +26,7 @@ baseurl: "" # the subpath of your site, e.g. /blog
 author: Rasmus Lystrøm
 url: https://ondfisk.dk/
 show_excerpts: true
-github_username:  ondfisk
+github_username: ondfisk
 linkedin_username: rasmuslystroem
 sessionize_username: ondfisk
 speakerdeck_username: ondfisk
@@ -46,6 +46,10 @@ certifications:
   - url: "https://www.credly.com/badges/416524d6-9ef3-4f3b-9524-b943756c3092/public_url"
     image: "https://images.credly.com/size/340x340/images/614465c6-1d80-4ae6-a323-753de224422a/image.png"
     title: "Google Cloud Certified: Professional Cloud Developer"
+
+  - url: "https://www.credly.com/badges/6ae96a0e-e8a9-402b-85d8-a2e67416d625/public_url"
+    image: "https://images.credly.com/size/340x340/images/33f08b7e-fa6a-41cd-810a-21cc1c336f6d/image.png"
+    title: "Google Cloud Certified: Professional Cloud DevOps Engineer"
 
   - url: "https://www.credly.com/badges/254cd305-1228-4eda-bfe2-22de71bb593b/public_url"
     image: "https://images.credly.com/size/340x340/images/08096465-cbfc-4c3e-93e5-93c5aa61f23e/image.png"
@@ -122,8 +126,6 @@ certifications:
   - url: "https://learn.microsoft.com/api/credentials/share/en-us/ondfisk/E941C0AB01940311?sharingId=CD9FFFAADA4C2810"
     image: "https://learn.microsoft.com/media/learn/certification/badges/microsoft-certified-fundamentals-badge.svg?branch=main"
     title: "Microsoft 365 Certified: Fundamentals"
-
-
 # Exclude from processing.
 # The following items will not be processed, by default.
 # Any item listed under the `exclude:` key here will be automatically added to
