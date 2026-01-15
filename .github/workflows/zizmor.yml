@@ -15,14 +15,18 @@ name: GitHub Actions Security Analysis with zizmor 🌈
 
 permissions: {}
 
+concurrency:
+  group: ${{ github.workflow }}-${{ github.ref }}
+  cancel-in-progress: true
+
 jobs:
   zizmor:
     name: Run zizmor 🌈
     runs-on: ubuntu-latest
     permissions:
       contents: read
-      actions: read
-      security-events: write
+      actions: read           # Needed for zizmor 🌈
+      security-events: write  # Needed for zizmor 🌈
     steps:
       - name: Checkout repository
         uses: actions/checkout@8e8c483db84b4bee98b60c0593521ed34d9990e8 # v6.0.1

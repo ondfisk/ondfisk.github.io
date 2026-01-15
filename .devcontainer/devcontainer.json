@@ -1,6 +1,6 @@
 {
   "name": "Jekyll",
-  "image": "mcr.microsoft.com/devcontainers/jekyll:dev-3.3-bookworm",
+  "image": "mcr.microsoft.com/devcontainers/jekyll:dev-3.4-bookworm",
   "customizations": {
     "vscode": {
       "settings": {

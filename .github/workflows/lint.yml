@@ -12,14 +12,18 @@ name: Lint
 
 permissions: {}
 
+concurrency:
+  group: ${{ github.workflow }}-${{ github.ref }}
+  cancel-in-progress: true
+
 jobs:
   build:
     name: Lint
     runs-on: ubuntu-latest
 
     permissions:
-      contents: write
-      statuses: write
+      contents: write  ## Needed for Super Linter
+      statuses: write  ## Needed for Super Linter
 
     steps:
       - name: Checkout Code
