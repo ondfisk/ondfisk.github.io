@@ -22,8 +22,8 @@ jobs:
     runs-on: ubuntu-latest
 
     permissions:
-      contents: write  ## Needed for Super Linter
-      statuses: write  ## Needed for Super Linter
+      contents: write ## Needed for Super Linter
+      statuses: write ## Needed for Super Linter
 
     steps:
       - name: Checkout Code

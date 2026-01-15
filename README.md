@@ -8,6 +8,6 @@ Open in Dev Container and:
 
 ```bash
 cd blog
-bundle update
+bundle update --all
 jekyll serve
 ```

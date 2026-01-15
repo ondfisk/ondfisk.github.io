@@ -1,0 +1,8 @@
+[[rules]]
+id = "linkedin-client-id"
+
+  [[rules.allowlists]]
+  description = "Allowed usernames"
+  regexes = [
+    "rasmuslystroem"
+  ]

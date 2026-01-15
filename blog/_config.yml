@@ -1,23 +1,4 @@
-# Welcome to Jekyll!
-#
-# This config file is meant for settings that affect your whole blog, values
-# which you are expected to set up once and rarely edit after that. If you find
-# yourself editing this file very often, consider using Jekyll's data files
-# feature for the data you need to update frequently.
-#
-# For technical reasons, this file is *NOT* reloaded automatically when you use
-# 'bundle exec jekyll serve'. If you change this file, please restart the server process.
-#
-# If you need help with YAML syntax, here are some quick references for you:
-# https://learn-the-web.algonquindesign.ca/topics/markdown-yaml-cheat-sheet/#yaml
-# https://learnxinyminutes.com/docs/yaml/
-#
-# Site settings
-# These are used to personalize your new site. If you look in the HTML files,
-# you will see them accessed via {{ site.title }}, {{ site.email }}, and so on.
-# You can create any custom variable you would like, and they will be accessible
-# in the templates via {{ site.myvariable }}.
-
+---
 lang: en-GB
 title: ondfisk - rants from the cloud
 email: rasmus@lystroem.dk
@@ -39,93 +20,94 @@ plugins:
   - jekyll-feed
 
 certifications:
-  - url: "https://www.credly.com/badges/4a67f959-5a1b-4570-9134-5558e63e427a/public_url"
-    image: "https://images.credly.com/size/340x340/images/71c579e0-51fd-4247-b493-d2fa8167157a/image.png"
-    title: "Google Cloud Certified: Professional Cloud Architect"
+  - title: "Google Cloud Certified: Professional Cloud Architect"
+    url: https://www.credly.com/badges/4a67f959-5a1b-4570-9134-5558e63e427a/public_url
+    image: https://images.credly.com/size/340x340/images/71c579e0-51fd-4247-b493-d2fa8167157a/image.png
 
-  - url: "https://www.credly.com/badges/416524d6-9ef3-4f3b-9524-b943756c3092/public_url"
-    image: "https://images.credly.com/size/340x340/images/614465c6-1d80-4ae6-a323-753de224422a/image.png"
-    title: "Google Cloud Certified: Professional Cloud Developer"
+  - title: "Google Cloud Certified: Professional Cloud Developer"
+    url: https://www.credly.com/badges/416524d6-9ef3-4f3b-9524-b943756c3092/public_url
+    image: https://images.credly.com/size/340x340/images/614465c6-1d80-4ae6-a323-753de224422a/image.png
 
-  - url: "https://www.credly.com/badges/6ae96a0e-e8a9-402b-85d8-a2e67416d625/public_url"
-    image: "https://images.credly.com/size/340x340/images/33f08b7e-fa6a-41cd-810a-21cc1c336f6d/image.png"
-    title: "Google Cloud Certified: Professional Cloud DevOps Engineer"
+  - title: "Google Cloud Certified: Professional Cloud DevOps Engineer"
+    url: https://www.credly.com/badges/6ae96a0e-e8a9-402b-85d8-a2e67416d625/public_url
+    image: https://images.credly.com/size/340x340/images/33f08b7e-fa6a-41cd-810a-21cc1c336f6d/image.png
 
-  - url: "https://www.credly.com/badges/254cd305-1228-4eda-bfe2-22de71bb593b/public_url"
-    image: "https://images.credly.com/size/340x340/images/08096465-cbfc-4c3e-93e5-93c5aa61f23e/image.png"
-    title: "Google Cloud Certified: Associate Cloud Engineer"
+  - title: "Google Cloud Certified: Associate Cloud Engineer"
+    url: https://www.credly.com/badges/254cd305-1228-4eda-bfe2-22de71bb593b/public_url
+    image: https://images.credly.com/size/340x340/images/08096465-cbfc-4c3e-93e5-93c5aa61f23e/image.png
 
-  - url: "https://www.credly.com/badges/ce4f4784-cc72-492f-822a-cac807bc85fe/public_url"
-    image: "https://images.credly.com/size/340x340/images/ec23e41a-0f32-4a98-9c00-28925621b281/blob"
-    title: "Google Cloud Certified: Generative AI Leader"
+  - title: "Google Cloud Certified: Generative AI Leader"
+    url: https://www.credly.com/badges/ce4f4784-cc72-492f-822a-cac807bc85fe/public_url
+    image: https://images.credly.com/size/340x340/images/ec23e41a-0f32-4a98-9c00-28925621b281/blob
 
-  - url: "https://www.credly.com/badges/c3c4139c-29c8-4725-8547-90450847c428/public_url"
-    image: "https://images.credly.com/size/340x340/images/44994cda-b5b0-44cb-9a6d-d29b57163073/image.png"
-    title: "Google Cloud Certified: Cloud Digital Leader"
+  - title: "Google Cloud Certified: Cloud Digital Leader"
+    url: https://www.credly.com/badges/c3c4139c-29c8-4725-8547-90450847c428/public_url
+    image: https://images.credly.com/size/340x340/images/44994cda-b5b0-44cb-9a6d-d29b57163073/image.png
 
-  - url: "https://www.credly.com/badges/5109862a-5126-4527-bf32-4c70109324ce/public_url"
-    image: "https://images.credly.com/size/340x340/images/c9ed294b-f8ac-48fa-a8c3-96dab1f110f2/image.png"
-    title: "GitHub Advanced Security"
+  - title: "GiHub Certified: GitHub Advanced Security"
+    url: https://www.credly.com/badges/5109862a-5126-4527-bf32-4c70109324ce/public_url
+    image: https://images.credly.com/size/340x340/images/c9ed294b-f8ac-48fa-a8c3-96dab1f110f2/image.png
 
-  - url: "https://www.credly.com/badges/3f0f132e-bc8e-48a2-b630-42a2112baaa8/public_url"
-    image: "https://images.credly.com/size/340x340/images/89efc3e7-842b-4790-b09b-9ea5efc71ec3/image.png"
-    title: "GitHub Actions"
+  - title: "GiHub Certified: GitHub Actions"
+    url: https://www.credly.com/badges/3f0f132e-bc8e-48a2-b630-42a2112baaa8/public_url
+    image: https://images.credly.com/size/340x340/images/89efc3e7-842b-4790-b09b-9ea5efc71ec3/image.png
 
-  - url: "https://www.credly.com/badges/dcc28c86-cad5-4f53-b0c6-8668f852297d/public_url"
-    image: "https://images.credly.com/size/340x340/images/34880f37-8ec8-4542-a78a-73ba6647208e/image.png"
-    title: "GitHub Administration"
+  - title: "GiHub Certified: GitHub Administration"
+    url: https://www.credly.com/badges/dcc28c86-cad5-4f53-b0c6-8668f852297d/public_url
+    image: https://images.credly.com/size/340x340/images/34880f37-8ec8-4542-a78a-73ba6647208e/image.png
 
-  - url: "https://www.credly.com/badges/f895e541-7575-4f8b-b738-8a78d7212dcc/public_url"
-    image: "https://images.credly.com/size/340x340/images/6b924fae-3cd7-4233-b012-97413c62c85d/blob"
-    title: "GitHub Copilot"
+  - title: "GiHub Certified: GitHub Copilot"
+    url: https://www.credly.com/badges/f895e541-7575-4f8b-b738-8a78d7212dcc/public_url
+    image: https://images.credly.com/size/340x340/images/6b924fae-3cd7-4233-b012-97413c62c85d/blob
 
-  - url: "https://www.credly.com/badges/50176afe-815f-4645-b70e-4ee713178534/public_url"
-    image: "https://images.credly.com/size/340x340/images/024d0122-724d-4c5a-bd83-cfe3c4b7a073/image.png"
-    title: "GitHub Foundations"
+  - title: "GiHub Certified: GitHub Foundations"
+    url: https://www.credly.com/badges/50176afe-815f-4645-b70e-4ee713178534/public_url
+    image: https://images.credly.com/size/340x340/images/024d0122-724d-4c5a-bd83-cfe3c4b7a073/image.png
 
-  - url: "https://learn.microsoft.com/api/credentials/share/en-us/ondfisk/F3E6CA8E433E445?sharingId=CD9FFFAADA4C2810"
-    image: "https://learn.microsoft.com/media/learn/certification/badges/microsoft-certified-expert-badge.svg?branch=main"
-    title: "Microsoft Certified: Azure Solutions Architect Expert"
+  - title: "Microsoft Certified: Azure Solutions Architect Expert"
+    url: https://learn.microsoft.com/api/credentials/share/en-us/ondfisk/F3E6CA8E433E445?sharingId=CD9FFFAADA4C2810
+    image: https://learn.microsoft.com/media/learn/certification/badges/microsoft-certified-expert-badge.svg?branch=main
 
-  - url: "https://learn.microsoft.com/api/credentials/share/en-us/ondfisk/12DDF73602AEABE?sharingId=CD9FFFAADA4C2810"
-    image: "https://learn.microsoft.com/media/learn/certification/badges/microsoft-certified-expert-badge.svg?branch=main"
-    title: "Microsoft Certified: DevOps Engineer Expert"
+  - title: "Microsoft Certified: DevOps Engineer Expert"
+    url: https://learn.microsoft.com/api/credentials/share/en-us/ondfisk/12DDF73602AEABE?sharingId=CD9FFFAADA4C2810
+    image: https://learn.microsoft.com/media/learn/certification/badges/microsoft-certified-expert-badge.svg?branch=main
 
-  - url: "https://learn.microsoft.com/api/credentials/share/en-us/ondfisk/6BAADC67F67BFEC6?sharingId=CD9FFFAADA4C2810"
-    image: "https://learn.microsoft.com/media/learn/certification/badges/microsoft-certified-associate-badge.svg?branch=main"
-    title: "Microsoft Certified: Azure Developer Associate"
+  - title: "Microsoft Certified: Azure Developer Associate"
+    url: https://learn.microsoft.com/api/credentials/share/en-us/ondfisk/6BAADC67F67BFEC6?sharingId=CD9FFFAADA4C2810
+    image: https://learn.microsoft.com/media/learn/certification/badges/microsoft-certified-associate-badge.svg?branch=main
 
-  - url: "https://learn.microsoft.com/api/credentials/share/en-us/ondfisk/3A24697F41FC3B57?sharingId=CD9FFFAADA4C2810"
-    image: "https://learn.microsoft.com/media/learn/certification/badges/microsoft-certified-associate-badge.svg?branch=main"
-    title: "Microsoft Certified: Azure AI Engineer Associate"
+  - title: "Microsoft Certified: Azure AI Engineer Associate"
+    url: https://learn.microsoft.com/api/credentials/share/en-us/ondfisk/3A24697F41FC3B57?sharingId=CD9FFFAADA4C2810
+    image: https://learn.microsoft.com/media/learn/certification/badges/microsoft-certified-associate-badge.svg?branch=main
 
-  - url: "https://learn.microsoft.com/api/credentials/share/en-us/ondfisk/D685C49AE726D673?sharingId=CD9FFFAADA4C2810"
-    image: "https://learn.microsoft.com/media/learn/certification/badges/microsoft-certified-associate-badge.svg?branch=main"
-    title: "Microsoft Certified: Azure Administrator Associate"
+  - title: "Microsoft Certified: Azure Administrator Associate"
+    url: https://learn.microsoft.com/api/credentials/share/en-us/ondfisk/D685C49AE726D673?sharingId=CD9FFFAADA4C2810
+    image: https://learn.microsoft.com/media/learn/certification/badges/microsoft-certified-associate-badge.svg?branch=main
 
-  - url: "https://learn.microsoft.com/api/credentials/share/en-us/ondfisk/AE91E69773A885F4?sharingId=CD9FFFAADA4C2810"
-    image: "https://learn.microsoft.com/media/learn/certification/badges/microsoft-certified-associate-badge.svg?branch=main"
-    title: "Microsoft Certified: Azure Security Engineer Associate"
+  - title: "Microsoft Certified: Azure Security Engineer Associate"
+    url: https://learn.microsoft.com/api/credentials/share/en-us/ondfisk/AE91E69773A885F4?sharingId=CD9FFFAADA4C2810
+    image: https://learn.microsoft.com/media/learn/certification/badges/microsoft-certified-associate-badge.svg?branch=main
 
-  - url: "https://learn.microsoft.com/api/credentials/share/en-us/ondfisk/297DCECE1D6EAC0E?sharingId=CD9FFFAADA4C2810"
-    image: "https://learn.microsoft.com/media/learn/certification/badges/microsoft-certified-fundamentals-badge.svg?branch=main"
-    title: "Microsoft Certified: Azure Fundamentals"
+  - title: "Microsoft Certified: Azure Fundamentals"
+    url: https://learn.microsoft.com/api/credentials/share/en-us/ondfisk/297DCECE1D6EAC0E?sharingId=CD9FFFAADA4C2810
+    image: https://learn.microsoft.com/media/learn/certification/badges/microsoft-certified-fundamentals-badge.svg?branch=main
 
-  - url: "https://learn.microsoft.com/api/credentials/share/en-us/ondfisk/9EA86E6A1CF1C9E2?sharingId=CD9FFFAADA4C2810"
-    image: "https://learn.microsoft.com/media/learn/certification/badges/microsoft-certified-fundamentals-badge.svg?branch=main"
-    title: "Microsoft Certified: Azure Data Fundamentals"
+  - title: "Microsoft Certified: Azure Data Fundamentals"
+    url: https://learn.microsoft.com/api/credentials/share/en-us/ondfisk/9EA86E6A1CF1C9E2?sharingId=CD9FFFAADA4C2810
+    image: https://learn.microsoft.com/media/learn/certification/badges/microsoft-certified-fundamentals-badge.svg?branch=main
 
-  - url: "https://learn.microsoft.com/api/credentials/share/en-us/ondfisk/7F222D05B023F8B9?sharingId=CD9FFFAADA4C2810"
-    image: "https://learn.microsoft.com/media/learn/certification/badges/microsoft-certified-fundamentals-badge.svg?branch=main"
-    title: "Microsoft Certified: Azure AI Fundamentals"
+  - title: "Microsoft Certified: Azure AI Fundamentals"
+    url: https://learn.microsoft.com/api/credentials/share/en-us/ondfisk/7F222D05B023F8B9?sharingId=CD9FFFAADA4C2810
+    image: https://learn.microsoft.com/media/learn/certification/badges/microsoft-certified-fundamentals-badge.svg?branch=main
 
-  - url: "https://learn.microsoft.com/api/credentials/share/en-us/ondfisk/80C10EFD8278887D?sharingId=CD9FFFAADA4C2810"
-    image: "https://learn.microsoft.com/media/learn/certification/badges/microsoft-certified-fundamentals-badge.svg?branch=main"
-    title: "Microsoft Certified: Security, Compliance, and Identity Fundamentals"
+  - title: "Microsoft Certified: Security, Compliance, and Identity Fundamentals"
+    url: https://learn.microsoft.com/api/credentials/share/en-us/ondfisk/80C10EFD8278887D?sharingId=CD9FFFAADA4C2810
+    image: https://learn.microsoft.com/media/learn/certification/badges/microsoft-certified-fundamentals-badge.svg?branch=main
 
-  - url: "https://learn.microsoft.com/api/credentials/share/en-us/ondfisk/E941C0AB01940311?sharingId=CD9FFFAADA4C2810"
-    image: "https://learn.microsoft.com/media/learn/certification/badges/microsoft-certified-fundamentals-badge.svg?branch=main"
-    title: "Microsoft 365 Certified: Fundamentals"
+  - title: "Microsoft 365 Certified: Fundamentals"
+    url: https://learn.microsoft.com/api/credentials/share/en-us/ondfisk/E941C0AB01940311?sharingId=CD9FFFAADA4C2810
+    image: https://learn.microsoft.com/media/learn/certification/badges/microsoft-certified-fundamentals-badge.svg?branch=main
+
 # Exclude from processing.
 # The following items will not be processed, by default.
 # Any item listed under the `exclude:` key here will be automatically added to
