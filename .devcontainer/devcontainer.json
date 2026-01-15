@@ -1,18 +1,25 @@
 {
-	"name": "Jekyll",
-	"image": "mcr.microsoft.com/devcontainers/jekyll:dev-3.3-bookworm",
-	"customizations": {
-		"vscode": {
-			"settings": {},
-			"extensions": [
-				"davidanson.vscode-markdownlint",
-				"esbenp.prettier-vscode",
-				"github.vscode-github-actions",
-				"github.vscode-pull-request-github",
-				"redhat.vscode-yaml",
-				"shopify.ruby-extensions-pack",
-				"streetsidesoftware.code-spell-checker"
-			]
-		}
-	}
+  "name": "Jekyll",
+  "image": "mcr.microsoft.com/devcontainers/jekyll:dev-3.3-bookworm",
+  "customizations": {
+    "vscode": {
+      "settings": {
+        "cSpell.enabled": true,
+        "cSpell.language": "en-GB",
+        "editor.trimAutoWhitespace": true,
+        "files.autoSave": "afterDelay",
+        "files.trimFinalNewlines": true,
+        "files.trimTrailingWhitespace": true,
+        "github.copilot.enable": {
+          "*": false
+        }
+      },
+      "extensions": [
+        "esbenp.prettier-vscode",
+        "github.vscode-github-actions",
+        "shopify.ruby-extensions-pack",
+        "streetsidesoftware.code-spell-checker"
+      ]
+    }
+  }
 }

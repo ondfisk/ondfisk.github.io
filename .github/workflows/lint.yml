@@ -1,0 +1,78 @@
+---
+name: Lint
+
+"on":
+  push:
+    branches:
+      - main
+  pull_request:
+    branches:
+      - main
+  workflow_dispatch:
+
+permissions: {}
+
+jobs:
+  build:
+    name: Lint
+    runs-on: ubuntu-latest
+
+    permissions:
+      contents: write
+      statuses: write
+
+    steps:
+      - name: Checkout Code
+        uses: actions/checkout@8e8c483db84b4bee98b60c0593521ed34d9990e8 # v6.0.1
+        with:
+          fetch-depth: 0
+          persist-credentials: true
+
+      - name: Super-Linter
+        uses: super-linter/super-linter@502f4fe48a81a392756e173e39a861f8c8efe056 # v8.3.0
+        env:
+          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+          VALIDATE_CSS: false
+          VALIDATE_CSS_PRETTIER: false
+          VALIDATE_GIT_COMMITLINT: false
+          VALIDATE_GRAPHQL_PRETTIER: false
+          VALIDATE_HTML: false
+          VALIDATE_HTML_PRETTIER: false
+          VALIDATE_JAVASCRIPT_ES: false
+          VALIDATE_JAVASCRIPT_PRETTIER: false
+          VALIDATE_JSON: false
+          VALIDATE_JSON_PRETTIER: false
+          VALIDATE_JSONC: false
+          VALIDATE_JSONC_PRETTIER: false
+          VALIDATE_JSX: false
+          VALIDATE_JSX_PRETTIER: false
+          VALIDATE_PYTHON_RUFF: false
+          VALIDATE_PYTHON_RUFF_FORMAT: false
+          VALIDATE_TSX: false
+          VALIDATE_TYPESCRIPT_ES: false
+          VALIDATE_TYPESCRIPT_PRETTIER: false
+          VALIDATE_VUE: false
+          VALIDATE_VUE_PRETTIER: false
+          FIX_BIOME_FORMAT: true
+          FIX_BIOME_LINT: true
+          FIX_CSHARP: true
+          FIX_DOTNET_SLN_FORMAT_ANALYZERS: true
+          FIX_DOTNET_SLN_FORMAT_STYLE: true
+          FIX_DOTNET_SLN_FORMAT_WHITESPACE: true
+          FIX_GITHUB_ACTIONS_ZIZMOR: true
+          FIX_MARKDOWN_PRETTIER: true
+          FIX_MARKDOWN: true
+          FIX_NATURAL_LANGUAGE: true
+          FIX_YAML_PRETTIER: true
+
+      - name: Commit and push linting fixes
+        if: github.event_name == 'pull_request' && github.ref_name != github.event.repository.default_branch
+        uses: stefanzweifel/git-auto-commit-action@28e16e81777b558cc906c8750092100bbb34c5e3 # v7.0.0
+        with:
+          add_options: --update
+          branch: ${{ github.event.pull_request.head.ref || github.head_ref || github.ref }}
+          commit_message: Fix linting issues
+          commit_user_email: super-linter@super-linter.dev
+          commit_user_name: super-linter
+          status_options: --untracked-files=no
+          skip_dirty_check: false

@@ -6,7 +6,7 @@ permalink: /privacy-policy/
 
 ## Who we are
 
-This site is hosted on: <https://www.ondfisk.dk/>.
+This site is hosted on: <https://ondfisk.dk/>.
 
 It is a personal site of Rasmus Lystrøm, Copenhagen, Denmark.
 
