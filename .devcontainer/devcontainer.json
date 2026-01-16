@@ -1,35 +1,35 @@
 {
-  "name": "Jekyll",
-  "image": "mcr.microsoft.com/devcontainers/jekyll:dev-3.3-bookworm",
-  "customizations": {
-    "vscode": {
-      "settings": {
-        "cSpell.enabled": true,
-        "cSpell.language": "en-GB",
-        "editor.codeActionsOnSave": {
-          "source.fixAll.biome": "explicit",
-          "source.organizeImports.biome": "explicit"
-        },
-        "editor.trimAutoWhitespace": true,
-        "files.autoSave": "afterD$elay",
-        "files.trimFinalNewlines": true,
-        "files.trimTrailingWhitespace": true,
-        "github.copilot.enable": {
-          "*": false
-        }
-      },
-      "extensions": [
-        "biomejs.biome",
-        "esbenp.prettier-vscode",
-        "github.vscode-github-actions",
-        "shopify.ruby-extensions-pack",
-        "streetsidesoftware.code-spell-checker"
-      ]
-    }
-  },
-  "features": {
-    "ghcr.io/devcontainers/features/node:1": {},
-    "ghcr.io/devcontainers/features/ruby:1": {}
-  },
-  "postCreateCommand": "npm install -g npm @biomejs/biome"
+	"name": "Jekyll",
+	"image": "mcr.microsoft.com/devcontainers/jekyll:dev-3.3-bookworm",
+	"customizations": {
+		"vscode": {
+			"settings": {
+				"cSpell.enabled": true,
+				"cSpell.language": "en-GB",
+				"editor.codeActionsOnSave": {
+					"source.fixAll.biome": "explicit",
+					"source.organizeImports.biome": "explicit"
+				},
+				"editor.trimAutoWhitespace": true,
+				"files.autoSave": "afterD$elay",
+				"files.trimFinalNewlines": true,
+				"files.trimTrailingWhitespace": true,
+				"github.copilot.enable": {
+					"*": false
+				}
+			},
+			"extensions": [
+				"biomejs.biome",
+				"esbenp.prettier-vscode",
+				"github.vscode-github-actions",
+				"shopify.ruby-extensions-pack",
+				"streetsidesoftware.code-spell-checker"
+			]
+		}
+	},
+	"features": {
+		"ghcr.io/devcontainers/features/node:1": {},
+		"ghcr.io/devcontainers/features/ruby:1": {}
+	},
+	"postCreateCommand": "npm install -g npm @biomejs/biome"
 }

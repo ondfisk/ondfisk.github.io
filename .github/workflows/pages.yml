@@ -61,7 +61,6 @@ jobs:
       id-token: write # Needed to deploy GitHub Pages
       pages: write # Needed to deploy GitHub Pages
     needs: build
-    if: false
 
     steps:
       - name: Deploy to GitHub Pages

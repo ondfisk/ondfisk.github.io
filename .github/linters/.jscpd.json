@@ -1,5 +1,3 @@
 {
-	"ignore": [
-		"blog/_posts/**"
-	]
+	"ignore": ["blog/_posts/**"]
 }
