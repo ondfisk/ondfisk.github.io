@@ -1,6 +1,6 @@
 {
 	"name": "Jekyll",
-	"image": "mcr.microsoft.com/devcontainers/jekyll:dev-3.3-bookworm",
+	"image": "mcr.microsoft.com/devcontainers/jekyll:dev",
 	"customizations": {
 		"vscode": {
 			"settings": {
@@ -11,7 +11,7 @@
 					"source.organizeImports.biome": "explicit"
 				},
 				"editor.trimAutoWhitespace": true,
-				"files.autoSave": "afterD$elay",
+				"files.autoSave": "afterDelay",
 				"files.trimFinalNewlines": true,
 				"files.trimTrailingWhitespace": true,
 				"github.copilot.enable": {

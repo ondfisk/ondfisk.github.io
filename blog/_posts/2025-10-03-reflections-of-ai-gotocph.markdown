@@ -35,7 +35,7 @@ I promise a mix of rants, wakeup calls, and laughs.
 - [AI-Generated "Workslop" Is - Destroying Productivity](https://hbr.org/2025/09/ai-generated-workslop-is-destroying-productivity)
 - [The Era of the Business Idiot](https://www.wheresyoured.at/the-era-of-the-business-idiot/)
 - [AI is not killing jobs, US study finds](https://www.ft.com/content/c9f905a0-cbfc-4a0a-ac4f-0d68d0fc64aa)
-- [Breat Cancer](https://nyheder.tv2.dk/samfund/2024-06-27-kunstig-intelligens-viser-oploeftende-resultater-i-at-opdage-brystkraeft)
+- [Breast Cancer](https://nyheder.tv2.dk/samfund/2024-06-27-kunstig-intelligens-viser-oploeftende-resultater-i-at-opdage-brystkraeft)
 - [The Impact of Generative AI on Critical Thinking: Self-Reported Reductions in Cognitive Effort and Confidence Effects From a Survey - of Knowledge Workers](https://www.microsoft.com/en-us/research/wp-content/uploads/2025/01/lee_2025_ai_critical_thinking_survey.pdf)
 - [ChatGPT is Bullshit](https://link.springer.com/article/10.1007/s10676-024-09775-5)
 - [Klarna's New AI Tool Does The Work Of 700 Customer Service Reps](https://www.forbes.com/sites/quickerbettertech/2024/03/13/klarnas-new-ai-tool-does-the-work-of-700-customer-service-reps/)

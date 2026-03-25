@@ -20,13 +20,13 @@ Basically, as with all kinds of monoliths, the monolithic frontend makes for a h
 Conceptually this can be illustrated like this:
 
 ![Monolithic Frontends](https://micro-frontends.org/ressources/diagrams/organisational/monolith-frontback-microservices.png "Monolithic Frontends")
-*Monolithic Frontends*, source: [Micro Frontends](https://micro-frontends.org/)
+*Monolithic Frontends*, source: [Micro Frontends](https://micro-frontends.org/) <!-- codespell:ignore ressources -->
 
 ## A solution
 
 Conceptually we want to take the concept of end-to-end responsibility into the frontend by organizing into verticals as illustrated here:
 
-![Organisation in Verticals](https://micro-frontends.org/ressources/diagrams/organisational/verticals-headline.png "Organisation in Verticals")
+![Organisation in Verticals](https://micro-frontends.org/ressources/diagrams/organisational/verticals-headline.png "Organisation in Verticals") <!-- codespell:ignore ressources -->
 *Organisation in Verticals*, source: [Micro Frontends](https://micro-frontends.org/)
 
 ## The Blazor Proof of Concept
