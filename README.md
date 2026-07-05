@@ -9,7 +9,7 @@ Open in Dev Container and:
 ```bash
 cd blog
 bundle update --all
-jekyll serve
+bundle exec jekyll serve
 ```
 
 ## Lint

@@ -1,6 +1,6 @@
 {
 	"name": "Jekyll",
-	"image": "mcr.microsoft.com/devcontainers/jekyll:dev",
+	"image": "mcr.microsoft.com/devcontainers/jekyll:latest",
 	"customizations": {
 		"vscode": {
 			"settings": {

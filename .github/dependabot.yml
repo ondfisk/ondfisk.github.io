@@ -5,6 +5,10 @@ updates:
     directory: /
     schedule:
       interval: weekly
+    groups:
+      devcontainers:
+        patterns:
+          - "*"
     cooldown:
       default-days: 7
 
@@ -12,6 +16,10 @@ updates:
     directory: /blog
     schedule:
       interval: weekly
+    groups:
+      bundler:
+        patterns:
+          - "*"
     cooldown:
       default-days: 7
 
@@ -19,5 +27,9 @@ updates:
     directory: /
     schedule:
       interval: weekly
+    groups:
+      github-actions:
+        patterns:
+          - "*"
     cooldown:
       default-days: 7
