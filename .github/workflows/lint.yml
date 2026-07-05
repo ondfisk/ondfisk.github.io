@@ -36,6 +36,7 @@ jobs:
         uses: super-linter/super-linter@4ce20838b8ab83717e78138c5b3a1407148e0918 # v8.7.0
         env:
           GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+          SAVE_SUPER_LINTER_SUMMARY: true
           VALIDATE_BIOME_LINT: false
           VALIDATE_CSS: false
           VALIDATE_CSS_PRETTIER: false
