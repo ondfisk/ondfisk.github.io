@@ -24,6 +24,10 @@ We start with a nod to Douglas Adams and discussion on the latest research showi
 
 I promise a mix of rants, wakeup calls, and laughs.
 
+## Recording
+
+<iframe width="560" height="315" src="https://www.youtube.com/embed/wPt6Aeui5bM?si=KdVEmzpRye6a0YTB" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+
 ## References
 
 - [The Impact of AI on Developer Productivity: Evidence from GitHub Copilot](https://arxiv.org/pdf/2302.06590)
