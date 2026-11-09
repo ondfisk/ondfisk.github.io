@@ -8,7 +8,7 @@ Open in Dev Container and:
 
 ```bash
 cd blog
-bundle update --all
+gem install bundler jekyll
 bundle exec jekyll serve
 ```
 

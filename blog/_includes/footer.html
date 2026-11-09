@@ -15,7 +15,8 @@
           <li>
             <i class="fa-solid fa-envelope"></i>
             <a class="u-email" href="mailto:{{ site.email }}">
-              {{ site.email }}</a>
+              {{ site.email }}</a
+            >
           </li>
           {%- endif -%}
         </ul>
@@ -25,6 +26,23 @@
 
       <div class="footer-col footer-col-3">
         <p>{{- site.description | escape -}}</p>
+        <p>
+          <a
+            href="https://www.simpleanalytics.com?utm_source=ondfisk.dk&utm_content=badge"
+            referrerpolicy="origin"
+            target="_blank"
+          >
+            <img
+              src="https://simpleanalyticsbadges.com/ondfisk.dk?background=transparent&text=677779&logo=3fb68b&border=677779&radius=3&border-width=1&counter=false"
+              width="210"
+              height="50"
+              alt="Simple Analytics"
+              loading="lazy"
+              referrerpolicy="no-referrer"
+              crossorigin="anonymous"
+            />
+          </a>
+        </p>
       </div>
     </div>
   </div>
